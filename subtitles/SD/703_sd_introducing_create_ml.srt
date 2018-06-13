@@ -1,0 +1,4779 @@
+1
+00:00:07,516 --> 00:00:15,500
+[ Music ]
+
+
+2
+00:00:20,516 --> 00:00:29,046
+[ Applause ]
+
+
+3
+00:00:29,546 --> 00:00:31,936
+>> Hello, welcome everyone.
+
+
+4
+00:00:32,436 --> 00:00:34,296
+My name is Gaurav and today we
+
+
+5
+00:00:34,296 --> 00:00:36,106
+are going to talk about machine
+
+
+6
+00:00:36,106 --> 00:00:36,436
+learning.
+
+
+7
+00:00:37,096 --> 00:00:40,146
+Last year we launched Core ML.
+
+
+8
+00:00:40,146 --> 00:00:41,986
+And the response from
+
+
+9
+00:00:41,986 --> 00:00:44,906
+developers, from you guys, have
+
+
+10
+00:00:44,906 --> 00:00:45,766
+been tremendous.
+
+
+11
+00:00:46,566 --> 00:00:48,456
+We are just amazed by the apps
+
+
+12
+00:00:48,606 --> 00:00:49,176
+you have made.
+
+
+13
+00:00:49,176 --> 00:00:51,436
+It clearly really is phenomenal.
+
+
+14
+00:00:52,196 --> 00:00:53,596
+So let me first begin by saying
+
+
+15
+00:00:53,596 --> 00:00:54,096
+thank you.
+
+
+16
+00:00:54,676 --> 00:00:56,186
+Thank you for embracing Core ML
+
+
+17
+00:00:56,666 --> 00:00:58,706
+and we love seeing so many of
+
+
+18
+00:00:58,756 --> 00:01:01,386
+you using it and giving
+
+
+19
+00:01:01,386 --> 00:01:03,306
+intelligent features to our
+
+
+20
+00:01:03,306 --> 00:01:03,596
+users.
+
+
+21
+00:01:04,406 --> 00:01:05,556
+We are in this together.
+
+
+22
+00:01:05,876 --> 00:01:06,226
+Thank you.
+
+
+23
+00:01:07,516 --> 00:01:10,546
+[ Applause ]
+
+
+24
+00:01:11,046 --> 00:01:12,306
+It is applause to the
+
+
+25
+00:01:12,306 --> 00:01:12,686
+developers.
+
+
+26
+00:01:14,336 --> 00:01:16,506
+OK, so if you recall, Core ML
+
+
+27
+00:01:16,506 --> 00:01:18,056
+gives you an easy way to
+
+
+28
+00:01:18,056 --> 00:01:19,526
+integrate an ML model in the
+
+
+29
+00:01:19,526 --> 00:01:19,856
+app.
+
+
+30
+00:01:21,336 --> 00:01:22,586
+The idea is very simple.
+
+
+31
+00:01:23,006 --> 00:01:25,066
+You get an ML model, you drag
+
+
+32
+00:01:25,066 --> 00:01:27,746
+and drop an Xcode and with just
+
+
+33
+00:01:27,816 --> 00:01:29,806
+three lines of code you can run
+
+
+34
+00:01:30,366 --> 00:01:32,776
+state of the art ML model with
+
+
+35
+00:01:32,776 --> 00:01:34,206
+millions of parameters and
+
+
+36
+00:01:34,206 --> 00:01:36,376
+billions of calculations in real
+
+
+37
+00:01:36,376 --> 00:01:36,716
+time.
+
+
+38
+00:01:36,906 --> 00:01:37,736
+That's just amazing.
+
+
+39
+00:01:39,076 --> 00:01:41,216
+And you give your users get real
+
+
+40
+00:01:41,216 --> 00:01:42,816
+time machine learning as well
+
+
+41
+00:01:43,046 --> 00:01:44,576
+privacy friendly machine
+
+
+42
+00:01:44,576 --> 00:01:44,806
+learning.
+
+
+43
+00:01:46,066 --> 00:01:47,456
+All you have to do is to drag
+
+
+44
+00:01:47,456 --> 00:01:49,766
+and drop and ML model in Xcode.
+
+
+45
+00:01:50,126 --> 00:01:51,556
+And Core ML takes care of the
+
+
+46
+00:01:51,556 --> 00:01:51,826
+rest.
+
+
+47
+00:01:54,066 --> 00:01:55,996
+I think the big question remains
+
+
+48
+00:01:55,996 --> 00:01:57,776
+is where do I get these models
+
+
+49
+00:01:58,626 --> 00:01:58,746
+from?
+
+
+50
+00:01:59,936 --> 00:02:01,976
+So last year we provided you two
+
+
+51
+00:02:01,976 --> 00:02:02,536
+options.
+
+
+52
+00:02:03,116 --> 00:02:05,086
+The first one was you could
+
+
+53
+00:02:05,086 --> 00:02:06,896
+download some of these models,
+
+
+54
+00:02:06,896 --> 00:02:08,876
+popular models, from our
+
+
+55
+00:02:08,876 --> 00:02:09,406
+website.
+
+
+56
+00:02:10,166 --> 00:02:13,146
+But more importantly we also
+
+
+57
+00:02:13,146 --> 00:02:15,326
+released Core ML Tools.
+
+
+58
+00:02:15,896 --> 00:02:18,086
+Core ML Tools allow you to tap
+
+
+59
+00:02:18,326 --> 00:02:19,486
+the work which is done by
+
+
+60
+00:02:19,576 --> 00:02:22,496
+amazing ML Community.
+
+
+61
+00:02:23,776 --> 00:02:25,986
+So the idea is again simple.
+
+
+62
+00:02:26,446 --> 00:02:27,316
+You choose your favorite
+
+
+63
+00:02:27,316 --> 00:02:29,226
+training library, create your
+
+
+64
+00:02:29,226 --> 00:02:31,326
+model in that training library,
+
+
+65
+00:02:31,526 --> 00:02:33,426
+covert it into Core ML from
+
+
+66
+00:02:33,426 --> 00:02:35,776
+there and then just integrate it
+
+
+67
+00:02:35,776 --> 00:02:36,406
+into your app.
+
+
+68
+00:02:37,086 --> 00:02:40,836
+When we released Core ML we
+
+
+69
+00:02:40,836 --> 00:02:42,346
+released with only five or six
+
+
+70
+00:02:42,406 --> 00:02:43,656
+training libraries, support for
+
+
+71
+00:02:43,656 --> 00:02:46,976
+five or six training library,
+
+
+72
+00:02:46,976 --> 00:02:48,486
+but within a year we have a
+
+
+73
+00:02:48,486 --> 00:02:51,196
+support for all the famous
+
+
+74
+00:02:51,676 --> 00:02:52,976
+training libraries out there.
+
+
+75
+00:02:53,966 --> 00:02:55,586
+We are enhancing our tools to
+
+
+76
+00:02:55,586 --> 00:02:56,756
+even allow you more
+
+
+77
+00:02:56,756 --> 00:02:58,786
+customization and we are going
+
+
+78
+00:02:58,786 --> 00:03:00,436
+to talk about more about Core ML
+
+
+79
+00:03:00,436 --> 00:03:02,786
+tools in tomorrow's session.
+
+
+80
+00:03:03,246 --> 00:03:07,586
+Another thing we did towards the
+
+
+81
+00:03:07,586 --> 00:03:09,006
+end of the year, we released to
+
+
+82
+00:03:09,006 --> 00:03:11,026
+recreate our open source machine
+
+
+83
+00:03:11,026 --> 00:03:11,816
+learning library.
+
+
+84
+00:03:11,926 --> 00:03:13,696
+We are going to talk about to
+
+
+85
+00:03:13,696 --> 00:03:16,186
+recreate in tomorrow's session.
+
+
+86
+00:03:17,036 --> 00:03:18,756
+Bu this year we want to give you
+
+
+87
+00:03:18,756 --> 00:03:19,646
+something even more.
+
+
+88
+00:03:20,046 --> 00:03:22,186
+We want to continue our journey.
+
+
+89
+00:03:22,876 --> 00:03:24,226
+We want to give you something
+
+
+90
+00:03:24,226 --> 00:03:27,106
+native, something swiftly,
+
+
+91
+00:03:28,066 --> 00:03:29,276
+something that harnesses the
+
+
+92
+00:03:29,276 --> 00:03:32,216
+power of our Xcode, something
+
+
+93
+00:03:32,216 --> 00:03:33,726
+that puts the focus on you, our
+
+
+94
+00:03:33,726 --> 00:03:35,916
+developers, something that just
+
+
+95
+00:03:35,916 --> 00:03:37,396
+demystify machine learning for
+
+
+96
+00:03:37,396 --> 00:03:37,566
+you.
+
+
+97
+00:03:38,306 --> 00:03:40,826
+Hence we are introducing Create
+
+
+98
+00:03:41,266 --> 00:03:41,716
+ML.
+
+
+99
+00:03:42,516 --> 00:03:47,636
+[ Applause ]
+
+
+100
+00:03:48,136 --> 00:03:50,026
+Our machine learning framework
+
+
+101
+00:03:50,716 --> 00:03:52,016
+in Swift.
+
+
+102
+00:03:52,226 --> 00:03:55,336
+So Create ML completes the left
+
+
+103
+00:03:55,336 --> 00:03:56,616
+had side of the equation.
+
+
+104
+00:03:57,616 --> 00:03:59,686
+The idea is you make the model
+
+
+105
+00:03:59,686 --> 00:04:01,746
+in Create ML and you run it in
+
+
+106
+00:04:01,786 --> 00:04:02,216
+Core ML.
+
+
+107
+00:04:02,796 --> 00:04:04,496
+You do complete end-to-end
+
+
+108
+00:04:04,496 --> 00:04:06,946
+machine learning in Swift, our
+
+
+109
+00:04:06,946 --> 00:04:07,776
+favorite language.
+
+
+110
+00:04:08,346 --> 00:04:09,366
+So you are not dealing with
+
+
+111
+00:04:09,366 --> 00:04:10,606
+language oddities where you are
+
+
+112
+00:04:10,606 --> 00:04:12,166
+training in one language and
+
+
+113
+00:04:12,166 --> 00:04:13,476
+then running inference in
+
+
+114
+00:04:13,476 --> 00:04:14,446
+another language.
+
+
+115
+00:04:16,296 --> 00:04:19,736
+Create ML is simple and very
+
+
+116
+00:04:19,736 --> 00:04:20,555
+powerful.
+
+
+117
+00:04:20,596 --> 00:04:21,966
+It is tailored to your app.
+
+
+118
+00:04:22,546 --> 00:04:23,996
+It leverages core Apple
+
+
+119
+00:04:23,996 --> 00:04:27,146
+technologies and you do
+
+
+120
+00:04:27,146 --> 00:04:29,566
+everything on your Mac.
+
+
+121
+00:04:31,156 --> 00:04:32,886
+So for this year we are going to
+
+
+122
+00:04:32,886 --> 00:04:34,336
+focus on three very important
+
+
+123
+00:04:34,336 --> 00:04:35,036
+use cases.
+
+
+124
+00:04:35,416 --> 00:04:38,696
+The first one is images, second
+
+
+125
+00:04:38,696 --> 00:04:40,946
+is text, and the third one is
+
+
+126
+00:04:41,096 --> 00:04:41,646
+tabular data.
+
+
+127
+00:04:42,886 --> 00:04:45,226
+These are the top use cases that
+
+
+128
+00:04:45,226 --> 00:04:47,346
+we believe will benefit you.
+
+
+129
+00:04:47,606 --> 00:04:50,946
+So you can do things like Custom
+
+
+130
+00:04:50,946 --> 00:04:52,206
+Image Classifier.
+
+
+131
+00:04:52,676 --> 00:04:54,426
+Idea is that you make your own
+
+
+132
+00:04:54,426 --> 00:04:55,696
+image classifier that can
+
+
+133
+00:04:55,696 --> 00:04:57,636
+recognize product from your
+
+
+134
+00:04:57,636 --> 00:04:58,316
+product catalog.
+
+
+135
+00:04:59,536 --> 00:05:00,846
+You can do things like text
+
+
+136
+00:05:00,986 --> 00:05:02,586
+classifier so you can make your
+
+
+137
+00:05:02,586 --> 00:05:04,266
+own sentiment analysis, topic
+
+
+138
+00:05:04,266 --> 00:05:05,796
+analysis, domain analysis.
+
+
+139
+00:05:06,456 --> 00:05:09,616
+And you can also do classical
+
+
+140
+00:05:09,656 --> 00:05:12,636
+regression and classification on
+
+
+141
+00:05:12,636 --> 00:05:13,146
+tabular data.
+
+
+142
+00:05:13,626 --> 00:05:15,316
+For example, let's just say you
+
+
+143
+00:05:15,316 --> 00:05:16,726
+want to predict the wine quality
+
+
+144
+00:05:16,726 --> 00:05:18,916
+using its chemical composition.
+
+
+145
+00:05:19,746 --> 00:05:21,066
+The possibilities are endless
+
+
+146
+00:05:21,066 --> 00:05:23,286
+and we are going to discuss them
+
+
+147
+00:05:23,286 --> 00:05:24,966
+in detail in the next 30
+
+
+148
+00:05:24,966 --> 00:05:25,216
+minutes.
+
+
+149
+00:05:27,976 --> 00:05:30,366
+However, before we do let's take
+
+
+150
+00:05:30,366 --> 00:05:31,796
+a look at common work flow.
+
+
+151
+00:05:32,296 --> 00:05:36,376
+First, let's just say you are
+
+
+152
+00:05:36,376 --> 00:05:37,926
+trying to enable an experience
+
+
+153
+00:05:37,926 --> 00:05:38,436
+in app.
+
+
+154
+00:05:39,106 --> 00:05:40,356
+Make sure that machine learning
+
+
+155
+00:05:40,356 --> 00:05:41,616
+is the right thing to do there.
+
+
+156
+00:05:41,866 --> 00:05:42,986
+So don't just blindly apply
+
+
+157
+00:05:42,986 --> 00:05:43,676
+machine learning.
+
+
+158
+00:05:44,046 --> 00:05:45,156
+Make sure machine learning is
+
+
+159
+00:05:45,156 --> 00:05:46,496
+the right thing to do there and
+
+
+160
+00:05:46,496 --> 00:05:47,576
+define a machine learning
+
+
+161
+00:05:47,626 --> 00:05:47,976
+problem.
+
+
+162
+00:05:50,076 --> 00:05:52,006
+Second collect data.
+
+
+163
+00:05:53,326 --> 00:05:55,446
+Make sure this data reflects the
+
+
+164
+00:05:55,446 --> 00:05:57,766
+real usage of your app.
+
+
+165
+00:05:58,566 --> 00:06:00,436
+So for example if you're making
+
+
+166
+00:06:00,436 --> 00:06:02,746
+a custom image classifier that
+
+
+167
+00:06:02,746 --> 00:06:05,076
+is going to be used by users on
+
+
+168
+00:06:05,076 --> 00:06:06,856
+their iPhone, so collect
+
+
+169
+00:06:06,986 --> 00:06:08,296
+pictures from your iPhone.
+
+
+170
+00:06:08,676 --> 00:06:11,206
+Collect less screenshots but
+
+
+171
+00:06:11,206 --> 00:06:13,326
+have more iPhone pictures.
+
+
+172
+00:06:14,536 --> 00:06:17,606
+Then you train your model.
+
+
+173
+00:06:18,356 --> 00:06:21,026
+Finally another important step
+
+
+174
+00:06:21,026 --> 00:06:22,756
+here is to evaluate this model.
+
+
+175
+00:06:23,366 --> 00:06:25,686
+The model evaluation is done on
+
+
+176
+00:06:25,686 --> 00:06:27,996
+a separate handout set.
+
+
+177
+00:06:29,286 --> 00:06:31,556
+If you're happy, you write out
+
+
+178
+00:06:31,606 --> 00:06:34,626
+the ML model, but let's just say
+
+
+179
+00:06:34,626 --> 00:06:36,216
+the results are not good.
+
+
+180
+00:06:36,216 --> 00:06:37,246
+You should either reclaim your
+
+
+181
+00:06:37,246 --> 00:06:39,416
+model with different parameters
+
+
+182
+00:06:39,686 --> 00:06:41,676
+or you collect more data.
+
+
+183
+00:06:43,436 --> 00:06:45,356
+Create ML actually helps you
+
+
+184
+00:06:45,356 --> 00:06:47,786
+across all four stages of this
+
+
+185
+00:06:48,786 --> 00:06:49,756
+work flow.
+
+
+186
+00:06:49,976 --> 00:06:52,436
+We have powerful in build data
+
+
+187
+00:06:52,436 --> 00:06:54,276
+injection utilities DataSource
+
+
+188
+00:06:54,276 --> 00:06:56,576
+and DataTable that we will talk
+
+
+189
+00:06:56,576 --> 00:06:57,296
+in the remainder of the
+
+
+190
+00:06:57,296 --> 00:06:58,036
+presentation.
+
+
+191
+00:06:58,466 --> 00:07:01,546
+You can actually train your
+
+
+192
+00:07:01,546 --> 00:07:02,776
+model using only one line of
+
+
+193
+00:07:02,866 --> 00:07:03,196
+code.
+
+
+194
+00:07:04,426 --> 00:07:06,196
+And the training is done
+
+
+195
+00:07:06,196 --> 00:07:07,396
+hardware optimized.
+
+
+196
+00:07:08,106 --> 00:07:11,796
+There are built-in evaluation
+
+
+197
+00:07:11,796 --> 00:07:12,976
+metrics so you don't have to
+
+
+198
+00:07:12,976 --> 00:07:14,236
+write your own precision and
+
+
+199
+00:07:14,236 --> 00:07:15,576
+recall and confusion metrics
+
+
+200
+00:07:15,576 --> 00:07:17,146
+calculation, use them.
+
+
+201
+00:07:17,146 --> 00:07:20,076
+And then finally when you're
+
+
+202
+00:07:20,136 --> 00:07:22,716
+happy just write out the model.
+
+
+203
+00:07:23,406 --> 00:07:25,936
+Now we will take a deeper look
+
+
+204
+00:07:25,936 --> 00:07:27,386
+in all three-use cases --
+
+
+205
+00:07:27,386 --> 00:07:32,646
+Images, Text, and Table of Data.
+
+
+206
+00:07:32,986 --> 00:07:34,686
+So let's start with images and
+
+
+207
+00:07:34,686 --> 00:07:36,276
+to do that I will invite Liza
+
+
+208
+00:07:36,276 --> 00:07:38,036
+Ottens, Senior Engineer in
+
+
+209
+00:07:38,036 --> 00:07:38,766
+Machine Learning team.
+
+
+210
+00:07:38,926 --> 00:07:39,266
+Thank you.
+
+
+211
+00:07:40,516 --> 00:07:44,906
+[ Applause ]
+
+
+212
+00:07:45,406 --> 00:07:45,956
+>> Thank you Gaurav.
+
+
+213
+00:07:50,106 --> 00:07:51,716
+Since enabling image based
+
+
+214
+00:07:51,716 --> 00:07:53,856
+experiences are some of the most
+
+
+215
+00:07:53,856 --> 00:07:55,906
+powerful and interactive ones
+
+
+216
+00:07:55,906 --> 00:07:56,806
+that you can add to your apps,
+
+
+217
+00:07:57,526 --> 00:07:59,346
+today we'll take a look at how
+
+
+218
+00:07:59,346 --> 00:08:00,886
+to train custom image
+
+
+219
+00:08:00,926 --> 00:08:02,156
+classification models.
+
+
+220
+00:08:03,316 --> 00:08:04,686
+Image classification is the
+
+
+221
+00:08:04,686 --> 00:08:06,626
+problem of identifying what
+
+
+222
+00:08:06,626 --> 00:08:08,436
+label out of a set of categories
+
+
+223
+00:08:08,526 --> 00:08:10,346
+you'd like to apply to an image.
+
+
+224
+00:08:11,646 --> 00:08:12,496
+Depending on the type of
+
+
+225
+00:08:12,496 --> 00:08:14,226
+training data, you can target
+
+
+226
+00:08:14,226 --> 00:08:16,676
+domains specific use cases to
+
+
+227
+00:08:16,676 --> 00:08:18,666
+enable in your apps.
+
+
+228
+00:08:19,346 --> 00:08:21,236
+The first step is to collect
+
+
+229
+00:08:21,416 --> 00:08:21,876
+training data.
+
+
+230
+00:08:23,826 --> 00:08:25,686
+In doing so we'll take a look at
+
+
+231
+00:08:25,746 --> 00:08:27,776
+a fruit classifier and see how
+
+
+232
+00:08:27,776 --> 00:08:28,286
+you would do so.
+
+
+233
+00:08:29,596 --> 00:08:31,336
+First you would want to gather
+
+
+234
+00:08:31,336 --> 00:08:33,306
+many varied types of images that
+
+
+235
+00:08:33,306 --> 00:08:34,756
+reflect the true data that
+
+
+236
+00:08:34,756 --> 00:08:36,035
+you'll end up seeing or that
+
+
+237
+00:08:36,035 --> 00:08:38,066
+your users will and then label
+
+
+238
+00:08:39,056 --> 00:08:39,226
+them.
+
+
+239
+00:08:39,226 --> 00:08:40,155
+First you can do this as a
+
+
+240
+00:08:40,155 --> 00:08:43,206
+dictionary with the string label
+
+
+241
+00:08:43,496 --> 00:08:44,696
+corresponding to arrays of
+
+
+242
+00:08:44,696 --> 00:08:47,566
+images or what we've noticed is
+
+
+243
+00:08:47,566 --> 00:08:49,196
+many popular data sets are
+
+
+244
+00:08:49,196 --> 00:08:50,586
+organized in hierarchical
+
+
+245
+00:08:50,646 --> 00:08:52,456
+directory structures such that
+
+
+246
+00:08:52,556 --> 00:08:54,456
+the label is the name of the
+
+
+247
+00:08:54,526 --> 00:08:56,076
+folder that contains all images
+
+
+248
+00:08:56,146 --> 00:08:56,436
+within it.
+
+
+249
+00:08:58,166 --> 00:08:58,986
+There are also other data
+
+
+250
+00:08:59,236 --> 00:09:01,546
+sources such as single folders
+
+
+251
+00:09:01,716 --> 00:09:03,276
+that contain labeled file names
+
+
+252
+00:09:03,726 --> 00:09:05,616
+and in the Create ML API we've
+
+
+253
+00:09:05,616 --> 00:09:07,306
+provided conveniences to extract
+
+
+254
+00:09:07,596 --> 00:09:08,216
+these structures.
+
+
+255
+00:09:10,556 --> 00:09:12,696
+Now training is the more complex
+
+
+256
+00:09:12,836 --> 00:09:13,686
+part of the equation.
+
+
+257
+00:09:14,116 --> 00:09:16,196
+So once you have your data this
+
+
+258
+00:09:16,236 --> 00:09:17,036
+is what you'll look at next.
+
+
+259
+00:09:18,476 --> 00:09:20,696
+And what you can do is you start
+
+
+260
+00:09:20,736 --> 00:09:22,496
+training a very complex model
+
+
+261
+00:09:22,606 --> 00:09:24,216
+from scratch on your input
+
+
+262
+00:09:24,216 --> 00:09:24,606
+images.
+
+
+263
+00:09:25,376 --> 00:09:26,946
+And for this you need lots and
+
+
+264
+00:09:26,946 --> 00:09:28,696
+lots of labeled data, you need
+
+
+265
+00:09:28,806 --> 00:09:30,426
+big compute and you need a lot
+
+
+266
+00:09:30,426 --> 00:09:30,876
+of patience.
+
+
+267
+00:09:31,836 --> 00:09:33,066
+But another well-established
+
+
+268
+00:09:33,126 --> 00:09:34,816
+technique in the industry is
+
+
+269
+00:09:34,816 --> 00:09:35,516
+transfer learning.
+
+
+270
+00:09:36,406 --> 00:09:38,366
+And since Apple has lots of
+
+
+271
+00:09:38,366 --> 00:09:40,226
+experience in training complex
+
+
+272
+00:09:40,336 --> 00:09:41,676
+machine learning models, we
+
+
+273
+00:09:41,676 --> 00:09:42,816
+already have one in the
+
+
+274
+00:09:42,866 --> 00:09:44,476
+operating system that you can
+
+
+275
+00:09:44,476 --> 00:09:45,266
+take advantage of.
+
+
+276
+00:09:45,776 --> 00:09:47,486
+So what we do is we apply
+
+
+277
+00:09:47,486 --> 00:09:49,046
+transfer learning on top of this
+
+
+278
+00:09:49,116 --> 00:09:50,786
+model that already exists in the
+
+
+279
+00:09:50,786 --> 00:09:53,236
+OS and we augment it, retraining
+
+
+280
+00:09:53,236 --> 00:09:54,846
+the last few layers to your
+
+
+281
+00:09:54,846 --> 00:09:55,276
+specific data.
+
+
+282
+00:09:55,276 --> 00:09:57,986
+So you no longer need millions
+
+
+283
+00:09:57,986 --> 00:09:58,566
+of images.
+
+
+284
+00:09:58,886 --> 00:10:01,166
+You can train a good classifier
+
+
+285
+00:10:01,366 --> 00:10:02,556
+using the amount of data that
+
+
+286
+00:10:02,606 --> 00:10:02,886
+you have.
+
+
+287
+00:10:05,006 --> 00:10:06,846
+This results in faster training
+
+
+288
+00:10:06,846 --> 00:10:07,096
+times.
+
+
+289
+00:10:07,616 --> 00:10:08,746
+And for developers that we've
+
+
+290
+00:10:08,786 --> 00:10:10,376
+worked with we've seen them go
+
+
+291
+00:10:11,026 --> 00:10:14,436
+from ours of training down to
+
+
+292
+00:10:14,436 --> 00:10:16,016
+minutes for thousands of images
+
+
+293
+00:10:16,496 --> 00:10:18,186
+or for small data sets even
+
+
+294
+00:10:18,266 --> 00:10:18,606
+seconds.
+
+
+295
+00:10:21,326 --> 00:10:22,566
+This also results in much
+
+
+296
+00:10:22,726 --> 00:10:24,466
+smaller models going from
+
+
+297
+00:10:24,466 --> 00:10:26,596
+hundreds of megabytes down to
+
+
+298
+00:10:27,036 --> 00:10:28,186
+just a few megabytes for
+
+
+299
+00:10:28,186 --> 00:10:29,866
+thousands of images or even
+
+
+300
+00:10:29,866 --> 00:10:31,216
+kilobytes for small models.
+
+
+301
+00:10:33,516 --> 00:10:35,846
+The goal with Create ML is to
+
+
+302
+00:10:35,846 --> 00:10:37,406
+abstract much of this and make
+
+
+303
+00:10:37,406 --> 00:10:38,966
+it simple and easy to use.
+
+
+304
+00:10:39,726 --> 00:10:41,216
+But to prove it let's take a
+
+
+305
+00:10:41,216 --> 00:10:41,836
+look at a demo.
+
+
+306
+00:10:49,386 --> 00:10:50,526
+And there are two work flows
+
+
+307
+00:10:51,326 --> 00:10:51,896
+that we can look at.
+
+
+308
+00:10:52,956 --> 00:10:54,596
+But first to set up the problem
+
+
+309
+00:10:54,996 --> 00:10:56,016
+I've started by running an app
+
+
+310
+00:10:56,676 --> 00:10:57,896
+that's using a state of the art
+
+
+311
+00:10:57,986 --> 00:10:59,366
+image classification model
+
+
+312
+00:10:59,866 --> 00:11:00,896
+that's already in the industry.
+
+
+313
+00:11:02,066 --> 00:11:03,506
+This one though is quite large.
+
+
+314
+00:11:03,506 --> 00:11:05,186
+It's a 100 megabytes in our app
+
+
+315
+00:11:06,416 --> 00:11:08,806
+and if we run it we have some
+
+
+316
+00:11:08,856 --> 00:11:12,756
+fruits but it's not quite what I
+
+
+317
+00:11:12,756 --> 00:11:13,496
+was looking for.
+
+
+318
+00:11:14,366 --> 00:11:17,156
+I'd really like it if instead we
+
+
+319
+00:11:17,486 --> 00:11:18,806
+could classify these particular
+
+
+320
+00:11:18,806 --> 00:11:19,046
+ones.
+
+
+321
+00:11:20,116 --> 00:11:21,536
+So what we can do is we can
+
+
+322
+00:11:21,626 --> 00:11:25,086
+switch to a new playground and
+
+
+323
+00:11:25,086 --> 00:11:27,276
+import Create MLUI and walk
+
+
+324
+00:11:27,276 --> 00:11:29,906
+through how to do this using the
+
+
+325
+00:11:29,906 --> 00:11:30,756
+UI for it.
+
+
+326
+00:11:31,906 --> 00:11:33,006
+We can define a builder,
+
+
+327
+00:11:34,526 --> 00:11:36,296
+initialize it, and to enable
+
+
+328
+00:11:36,296 --> 00:11:38,106
+drag and drop training we can
+
+
+329
+00:11:38,106 --> 00:11:39,666
+show the builder in the live
+
+
+330
+00:11:39,696 --> 00:11:39,926
+view.
+
+
+331
+00:11:44,166 --> 00:11:46,436
+This brings up a prompt in the
+
+
+332
+00:11:46,436 --> 00:11:48,216
+live view to drag in images to
+
+
+333
+00:11:48,386 --> 00:11:49,036
+begin training.
+
+
+334
+00:11:50,626 --> 00:11:52,536
+And here I've set aside some
+
+
+335
+00:11:52,536 --> 00:11:54,756
+photos of fruits -- some
+
+
+336
+00:11:54,756 --> 00:11:56,416
+blueberries and other types.
+
+
+337
+00:11:57,476 --> 00:11:59,136
+And you can drag them in and
+
+
+338
+00:11:59,216 --> 00:12:00,366
+automatically an image
+
+
+339
+00:12:00,426 --> 00:12:02,106
+classifier model begins training
+
+
+340
+00:12:02,316 --> 00:12:02,796
+on the Mac.
+
+
+341
+00:12:03,656 --> 00:12:05,366
+All of this is accelerated on
+
+
+342
+00:12:05,366 --> 00:12:07,546
+the GPU on however many
+
+
+343
+00:12:07,546 --> 00:12:09,076
+categories you end up training
+
+
+344
+00:12:09,076 --> 00:12:09,256
+on.
+
+
+345
+00:12:10,476 --> 00:12:11,776
+It automatically tells you what
+
+
+346
+00:12:11,776 --> 00:12:13,366
+the accuracy is on the training
+
+
+347
+00:12:13,426 --> 00:12:13,816
+data set.
+
+
+348
+00:12:14,346 --> 00:12:16,086
+But what's more helpful is to
+
+
+349
+00:12:16,086 --> 00:12:18,206
+try this on new images that the
+
+
+350
+00:12:18,206 --> 00:12:19,776
+model hasn't seen before to
+
+
+351
+00:12:19,776 --> 00:12:22,226
+predict how it will do on real
+
+
+352
+00:12:22,226 --> 00:12:22,816
+use cases.
+
+
+353
+00:12:23,546 --> 00:12:24,586
+So I can drag in this other
+
+
+354
+00:12:24,646 --> 00:12:26,416
+folder containing unseen images
+
+
+355
+00:12:27,526 --> 00:12:29,116
+and now the model is evaluating
+
+
+356
+00:12:29,116 --> 00:12:30,586
+on these new types of fruits.
+
+
+357
+00:12:30,986 --> 00:12:32,636
+And if you scroll, you can see
+
+
+358
+00:12:32,636 --> 00:12:34,306
+what the true label is of each
+
+
+359
+00:12:34,346 --> 00:12:36,486
+type, as well what the predicted
+
+
+360
+00:12:36,486 --> 00:12:37,496
+one was by the model.
+
+
+361
+00:12:40,116 --> 00:12:41,836
+And if you're happy with this
+
+
+362
+00:12:41,936 --> 00:12:43,956
+accuracy, what you can do is you
+
+
+363
+00:12:43,956 --> 00:12:45,716
+can take the model and drag it
+
+
+364
+00:12:45,716 --> 00:12:46,146
+into your app.
+
+
+365
+00:12:50,526 --> 00:12:51,236
+I'll add it here.
+
+
+366
+00:12:51,546 --> 00:12:54,196
+And if we take a look this model
+
+
+367
+00:12:54,236 --> 00:12:55,576
+is 83 kilobytes.
+
+
+368
+00:12:56,126 --> 00:12:58,396
+That's a huge savings down from
+
+
+369
+00:12:58,506 --> 00:12:58,946
+hundreds.
+
+
+370
+00:13:00,516 --> 00:13:05,546
+[ Applause ]
+
+
+371
+00:13:06,046 --> 00:13:07,436
+So we can delete the old model
+
+
+372
+00:13:07,436 --> 00:13:09,286
+that we were using before and in
+
+
+373
+00:13:09,286 --> 00:13:10,666
+the view controller we can
+
+
+374
+00:13:10,666 --> 00:13:13,516
+initialize this new one, Fruit
+
+
+375
+00:13:14,016 --> 00:13:15,966
+Classifier, well Image
+
+
+376
+00:13:15,966 --> 00:13:16,446
+Classifier.
+
+
+377
+00:13:19,776 --> 00:13:22,596
+We can then rerun the app, bring
+
+
+378
+00:13:22,596 --> 00:13:27,336
+up the simulator, and see how it
+
+
+379
+00:13:27,336 --> 00:13:28,626
+does on some of those fruits
+
+
+380
+00:13:28,626 --> 00:13:29,716
+that we've not trained it on.
+
+
+381
+00:13:30,196 --> 00:13:31,216
+Well, different.
+
+
+382
+00:13:33,276 --> 00:13:34,686
+On the raspberry it can no
+
+
+383
+00:13:34,686 --> 00:13:36,616
+correctly predict it since we
+
+
+384
+00:13:36,616 --> 00:13:38,056
+trained the model to recognize
+
+
+385
+00:13:38,526 --> 00:13:39,066
+raspberries.
+
+
+386
+00:13:39,926 --> 00:13:40,976
+We can even see if it can
+
+
+387
+00:13:40,976 --> 00:13:42,226
+distinguish from strawberries
+
+
+388
+00:13:42,646 --> 00:13:44,926
+and it can now depending on our
+
+
+389
+00:13:44,926 --> 00:13:45,126
+data.
+
+
+390
+00:13:47,206 --> 00:13:48,476
+But there are other workflows
+
+
+391
+00:13:48,526 --> 00:13:49,066
+you can use.
+
+
+392
+00:13:49,876 --> 00:13:50,756
+Perhaps you want to do this
+
+
+393
+00:13:50,846 --> 00:13:52,596
+programmatically or perhaps you
+
+
+394
+00:13:52,596 --> 00:13:53,306
+want to automate it.
+
+
+395
+00:13:54,356 --> 00:13:55,736
+We can also walk through how to
+
+
+396
+00:13:55,736 --> 00:13:58,076
+use the API, Create ML to do so.
+
+
+397
+00:14:02,156 --> 00:14:04,256
+So now we can switch to another
+
+
+398
+00:14:04,306 --> 00:14:07,326
+playground in import Create ML.
+
+
+399
+00:14:07,876 --> 00:14:09,576
+Since we'll be using URLs we
+
+
+400
+00:14:09,576 --> 00:14:11,396
+also can import foundation.
+
+
+401
+00:14:13,696 --> 00:14:15,416
+And since on our desktop we
+
+
+402
+00:14:15,416 --> 00:14:16,836
+still have these folders of
+
+
+403
+00:14:16,836 --> 00:14:19,786
+fruits, we can say where they
+
+
+404
+00:14:19,786 --> 00:14:24,596
+are, and also say where the
+
+
+405
+00:14:24,596 --> 00:14:25,476
+testing fruits are.
+
+
+406
+00:14:25,476 --> 00:14:27,536
+And then the next step is to
+
+
+407
+00:14:27,536 --> 00:14:28,636
+actually train the model.
+
+
+408
+00:14:29,436 --> 00:14:32,386
+So we can define a model and we
+
+
+409
+00:14:32,386 --> 00:14:33,726
+can initialize an image
+
+
+410
+00:14:33,726 --> 00:14:34,396
+classifier.
+
+
+411
+00:14:35,216 --> 00:14:36,736
+And now if we take a look at
+
+
+412
+00:14:36,736 --> 00:14:38,386
+what autocomplete shows to us we
+
+
+413
+00:14:38,386 --> 00:14:40,246
+can see, we can provide training
+
+
+414
+00:14:40,316 --> 00:14:41,636
+data in the form of a dictionary
+
+
+415
+00:14:41,636 --> 00:14:45,356
+of labels to arrays of images or
+
+
+416
+00:14:45,356 --> 00:14:47,496
+we can use a data source or even
+
+
+417
+00:14:47,496 --> 00:14:48,986
+specify model training
+
+
+418
+00:14:48,986 --> 00:14:50,056
+parameters if we want to.
+
+
+419
+00:14:51,466 --> 00:14:52,746
+Let's use a data source and
+
+
+420
+00:14:52,896 --> 00:14:54,236
+we'll use label directories
+
+
+421
+00:14:54,306 --> 00:14:55,366
+since that's how our data is
+
+
+422
+00:14:55,366 --> 00:14:57,586
+organized and specify the
+
+
+423
+00:14:57,586 --> 00:15:00,346
+trainingDir Directory.
+
+
+424
+00:15:02,436 --> 00:15:03,466
+And since we're running in the
+
+
+425
+00:15:03,466 --> 00:15:04,856
+new REPL mode of Xcode
+
+
+426
+00:15:04,886 --> 00:15:06,146
+Playgrounds I just need to hit
+
+
+427
+00:15:06,146 --> 00:15:08,636
+Shift Enter and the model begins
+
+
+428
+00:15:08,636 --> 00:15:09,706
+training right away.
+
+
+429
+00:15:11,126 --> 00:15:12,496
+You can even pull up the console
+
+
+430
+00:15:13,426 --> 00:15:15,916
+and see output of one of its
+
+
+431
+00:15:15,916 --> 00:15:17,946
+extracting features and how many
+
+
+432
+00:15:17,946 --> 00:15:19,166
+iterations it's running through.
+
+
+433
+00:15:20,476 --> 00:15:22,036
+Afterwards you can also open
+
+
+434
+00:15:22,036 --> 00:15:23,976
+Quick Looks and see the name in
+
+
+435
+00:15:23,976 --> 00:15:25,776
+the model and how many instances
+
+
+436
+00:15:25,776 --> 00:15:26,466
+it's trained on.
+
+
+437
+00:15:28,126 --> 00:15:29,986
+Now we might want to evaluate on
+
+
+438
+00:15:29,986 --> 00:15:31,206
+the testing data that we've set
+
+
+439
+00:15:31,286 --> 00:15:31,596
+aside.
+
+
+440
+00:15:32,576 --> 00:15:34,836
+So what we can do is we can call
+
+
+441
+00:15:34,836 --> 00:15:37,076
+evaluation on another data
+
+
+442
+00:15:37,216 --> 00:15:38,536
+source since that folder is
+
+
+443
+00:15:38,536 --> 00:15:39,546
+organized the same way
+
+
+444
+00:15:39,956 --> 00:15:41,786
+specifying the URL the test
+
+
+445
+00:15:41,936 --> 00:15:42,116
+data.
+
+
+446
+00:15:42,896 --> 00:15:45,166
+You can hit Shift Enter and now
+
+
+447
+00:15:45,166 --> 00:15:46,886
+the model is evaluating on these
+
+
+448
+00:15:46,986 --> 00:15:48,516
+testing datasets, testing
+
+
+449
+00:15:48,516 --> 00:15:48,766
+images.
+
+
+450
+00:15:49,536 --> 00:15:51,166
+Once it's complete we can also
+
+
+451
+00:15:51,166 --> 00:15:52,676
+look at the Quick Look and see
+
+
+452
+00:15:52,676 --> 00:15:54,306
+how many examples it evaluated
+
+
+453
+00:15:54,306 --> 00:15:55,986
+on, as well as how many classes
+
+
+454
+00:15:56,076 --> 00:15:57,516
+were in that folder all together
+
+
+455
+00:15:57,946 --> 00:15:58,706
+and the accuracy.
+
+
+456
+00:16:00,236 --> 00:16:01,666
+If we're happy with that we can
+
+
+457
+00:16:01,716 --> 00:16:02,166
+write it out.
+
+
+458
+00:16:07,756 --> 00:16:09,066
+I'll grab a code snippet here.
+
+
+459
+00:16:11,946 --> 00:16:13,066
+And say that I want to write it
+
+
+460
+00:16:13,176 --> 00:16:14,686
+to the desktop with name Fruit
+
+
+461
+00:16:14,716 --> 00:16:16,056
+Classifier ML Model.
+
+
+462
+00:16:18,196 --> 00:16:19,646
+Once I do, you can see this new
+
+
+463
+00:16:19,646 --> 00:16:21,026
+model up here is on the desktop.
+
+
+464
+00:16:21,936 --> 00:16:23,226
+We can double click it and take
+
+
+465
+00:16:23,226 --> 00:16:25,386
+a look and see it's exactly the
+
+
+466
+00:16:25,476 --> 00:16:25,806
+same.
+
+
+467
+00:16:26,046 --> 00:16:27,606
+This is also 83 kilobytes.
+
+
+468
+00:16:30,376 --> 00:16:31,666
+Furthermore, we can integrate it
+
+
+469
+00:16:31,716 --> 00:16:33,016
+back into our app the same way.
+
+
+470
+00:16:34,546 --> 00:16:34,936
+Let's recap.
+
+
+471
+00:16:38,516 --> 00:16:44,856
+[ Applause ]
+
+
+472
+00:16:45,356 --> 00:16:46,876
+We saw two ways of training
+
+
+473
+00:16:46,876 --> 00:16:48,476
+image classifier models in
+
+
+474
+00:16:48,476 --> 00:16:48,856
+Create ML.
+
+
+475
+00:16:49,626 --> 00:16:51,756
+One was with the UI, which makes
+
+
+476
+00:16:51,756 --> 00:16:53,796
+it super simple to drag and drop
+
+
+477
+00:16:53,996 --> 00:16:54,966
+your training data and
+
+
+478
+00:16:54,966 --> 00:16:57,296
+evaluation data to produce an ML
+
+
+479
+00:16:57,296 --> 00:16:57,626
+Model.
+
+
+480
+00:16:58,736 --> 00:17:01,876
+The other way was with the API,
+
+
+481
+00:17:02,306 --> 00:17:04,476
+the Create ML API using Xcode
+
+
+482
+00:17:04,516 --> 00:17:05,006
+Playgrounds.
+
+
+483
+00:17:05,886 --> 00:17:07,606
+If we walk through some of this
+
+
+484
+00:17:07,606 --> 00:17:09,296
+code we can see the first thing
+
+
+485
+00:17:09,296 --> 00:17:11,286
+we had to do was import Create
+
+
+486
+00:17:11,286 --> 00:17:11,376
+ML.
+
+
+487
+00:17:12,336 --> 00:17:13,945
+The next was to specify where
+
+
+488
+00:17:13,945 --> 00:17:15,376
+our training and testing data
+
+
+489
+00:17:15,376 --> 00:17:17,546
+was and then actually begin
+
+
+490
+00:17:17,546 --> 00:17:19,276
+training the model by specifying
+
+
+491
+00:17:19,376 --> 00:17:20,606
+how our training data was laid
+
+
+492
+00:17:20,606 --> 00:17:20,806
+out.
+
+
+493
+00:17:22,096 --> 00:17:23,226
+We can then evaluate on the
+
+
+494
+00:17:23,306 --> 00:17:25,876
+testing data and finally Save ML
+
+
+495
+00:17:25,876 --> 00:17:26,185
+Model.
+
+
+496
+00:17:29,466 --> 00:17:30,996
+If you want to automate this you
+
+
+497
+00:17:30,996 --> 00:17:32,106
+can also turn these into
+
+
+498
+00:17:32,236 --> 00:17:33,996
+scripts, which is a very popular
+
+
+499
+00:17:33,996 --> 00:17:35,656
+way of saving what you've done
+
+
+500
+00:17:35,716 --> 00:17:37,096
+and rerunning it whenever.
+
+
+501
+00:17:39,626 --> 00:17:40,776
+You can then change permissions
+
+
+502
+00:17:40,776 --> 00:17:42,656
+on the file and run them like
+
+
+503
+00:17:42,756 --> 00:17:42,976
+so.
+
+
+504
+00:17:43,936 --> 00:17:45,696
+Or for other work flows you can
+
+
+505
+00:17:45,696 --> 00:17:47,836
+always use Swift Command Line
+
+
+506
+00:17:47,836 --> 00:17:48,166
+REPL.
+
+
+507
+00:17:49,146 --> 00:17:51,126
+So we've seen today how to train
+
+
+508
+00:17:51,126 --> 00:17:52,386
+image classification models
+
+
+509
+00:17:52,896 --> 00:17:53,966
+using a few different work
+
+
+510
+00:17:54,036 --> 00:17:54,306
+flows.
+
+
+511
+00:17:54,836 --> 00:17:56,386
+Put next, I'd like to pass it
+
+
+512
+00:17:56,386 --> 00:17:58,456
+off to Tao to talk about natural
+
+
+513
+00:17:58,456 --> 00:17:58,866
+language.
+
+
+514
+00:17:59,356 --> 00:17:59,646
+Thank you.
+
+
+515
+00:18:01,516 --> 00:18:05,500
+[ Applause ]
+
+
+516
+00:18:08,256 --> 00:18:11,446
+>> Thank you Liza.
+
+
+517
+00:18:12,516 --> 00:18:14,356
+Hello everyone, my name is Tao.
+
+
+518
+00:18:14,356 --> 00:18:16,306
+I'm an Engineer Head at Apple
+
+
+519
+00:18:16,576 --> 00:18:17,976
+working on the Core ML Team.
+
+
+520
+00:18:18,886 --> 00:18:21,046
+You just saw how easy and
+
+
+521
+00:18:21,046 --> 00:18:22,556
+intuitive to train an image
+
+
+522
+00:18:22,556 --> 00:18:24,926
+classifier with just a few lines
+
+
+523
+00:18:24,926 --> 00:18:25,496
+of code.
+
+
+524
+00:18:26,126 --> 00:18:28,026
+Now, I'm going to show you the
+
+
+525
+00:18:28,026 --> 00:18:29,756
+same can be done for natural
+
+
+526
+00:18:29,756 --> 00:18:30,286
+language.
+
+
+527
+00:18:30,836 --> 00:18:33,796
+In the easiest release we're
+
+
+528
+00:18:33,796 --> 00:18:35,356
+going to support two Natural
+
+
+529
+00:18:35,356 --> 00:18:37,706
+Language Tasks -- Text
+
+
+530
+00:18:37,706 --> 00:18:39,746
+Classification and Word Tagging.
+
+
+531
+00:18:40,976 --> 00:18:43,276
+Today I'm going to focus on Text
+
+
+532
+00:18:43,276 --> 00:18:44,406
+Classification.
+
+
+533
+00:18:44,716 --> 00:18:46,106
+For details on Word Tagging
+
+
+534
+00:18:46,676 --> 00:18:48,016
+please join the Natural Language
+
+
+535
+00:18:48,016 --> 00:18:49,666
+Session that happens tomorrow.
+
+
+536
+00:18:50,546 --> 00:18:52,336
+Text Classification can be used
+
+
+537
+00:18:52,586 --> 00:18:53,726
+in a few machine learning
+
+
+538
+00:18:53,806 --> 00:18:54,486
+applications.
+
+
+539
+00:18:55,706 --> 00:18:57,776
+For example, Sentiment Analysis.
+
+
+540
+00:18:58,646 --> 00:19:00,416
+The energy of developers is
+
+
+541
+00:19:00,416 --> 00:19:01,396
+amazing!
+
+
+542
+00:19:01,706 --> 00:19:02,786
+That's a positive note.
+
+
+543
+00:19:03,216 --> 00:19:04,656
+You want your app to know it.
+
+
+544
+00:19:05,516 --> 00:19:08,046
+[ Applause ]
+
+
+545
+00:19:08,546 --> 00:19:09,546
+Spam Analysis.
+
+
+546
+00:19:10,216 --> 00:19:11,896
+If you saw this message in your
+
+
+547
+00:19:11,896 --> 00:19:13,726
+mailbox, you know it's very
+
+
+548
+00:19:13,726 --> 00:19:15,486
+likely it's a Spam.
+
+
+549
+00:19:15,656 --> 00:19:17,936
+So you want your app to know
+
+
+550
+00:19:18,406 --> 00:19:19,966
+that as well.
+
+
+551
+00:19:19,966 --> 00:19:20,956
+Topic Analysis.
+
+
+552
+00:19:21,616 --> 00:19:23,586
+The Warriors just had an amazing
+
+
+553
+00:19:23,586 --> 00:19:24,306
+comeback win.
+
+
+554
+00:19:25,046 --> 00:19:26,566
+That's a sport post.
+
+
+555
+00:19:26,796 --> 00:19:28,296
+You want your app to be able to
+
+
+556
+00:19:28,296 --> 00:19:29,066
+classify that.
+
+
+557
+00:19:30,286 --> 00:19:32,766
+So to train such a classifier,
+
+
+558
+00:19:32,766 --> 00:19:34,106
+the first thing you do is to
+
+
+559
+00:19:34,106 --> 00:19:35,326
+collect some training data.
+
+
+560
+00:19:36,206 --> 00:19:38,956
+With Create ML we support a few
+
+
+561
+00:19:38,956 --> 00:19:40,146
+different ways for you to
+
+
+562
+00:19:40,146 --> 00:19:41,576
+organize your training data.
+
+
+563
+00:19:42,216 --> 00:19:44,676
+For example, label directories.
+
+
+564
+00:19:45,366 --> 00:19:46,676
+Here you have two folders.
+
+
+565
+00:19:46,996 --> 00:19:48,556
+One named the positive, the
+
+
+566
+00:19:48,556 --> 00:19:50,076
+other one named negative.
+
+
+567
+00:19:50,716 --> 00:19:52,416
+Within each folder you have a
+
+
+568
+00:19:52,416 --> 00:19:54,966
+number of articles with just raw
+
+
+569
+00:19:55,766 --> 00:19:57,926
+text whose true label is simply
+
+
+570
+00:19:57,926 --> 00:19:59,496
+the name of the folder.
+
+
+571
+00:20:00,976 --> 00:20:02,936
+Alternatively, you can prepare
+
+
+572
+00:20:02,936 --> 00:20:04,346
+your training data using simple
+
+
+573
+00:20:04,346 --> 00:20:06,746
+CSV, where you prepare your raw
+
+
+574
+00:20:06,746 --> 00:20:08,646
+text and the truth label
+
+
+575
+00:20:08,856 --> 00:20:09,806
+separated by comma.
+
+
+576
+00:20:10,806 --> 00:20:12,876
+We also support JSON for the
+
+
+577
+00:20:12,876 --> 00:20:15,286
+training data and know that we
+
+
+578
+00:20:15,286 --> 00:20:16,486
+just talk about training data
+
+
+579
+00:20:16,486 --> 00:20:18,206
+organization and you can
+
+
+580
+00:20:18,206 --> 00:20:19,976
+actually organize your test data
+
+
+581
+00:20:19,976 --> 00:20:20,976
+in the exact same way.
+
+
+582
+00:20:24,256 --> 00:20:26,176
+Now, with your training data and
+
+
+583
+00:20:26,176 --> 00:20:28,086
+test data ready, what are the
+
+
+584
+00:20:28,086 --> 00:20:30,126
+steps involved to train such a
+
+
+585
+00:20:30,126 --> 00:20:31,076
+text classifier?
+
+
+586
+00:20:34,226 --> 00:20:35,686
+A typical work flow would look
+
+
+587
+00:20:35,686 --> 00:20:36,446
+something like this.
+
+
+588
+00:20:37,936 --> 00:20:39,276
+You start with your raw text,
+
+
+589
+00:20:40,166 --> 00:20:42,096
+you do a language identification
+
+
+590
+00:20:42,096 --> 00:20:43,426
+to figure out which language it
+
+
+591
+00:20:43,426 --> 00:20:46,196
+is in, you convert that into
+
+
+592
+00:20:46,306 --> 00:20:49,346
+tokens, and then you convert
+
+
+593
+00:20:49,346 --> 00:20:50,676
+that into some feature values
+
+
+594
+00:20:52,256 --> 00:20:53,796
+and then you can apply a machine
+
+
+595
+00:20:53,796 --> 00:20:56,206
+learning model that gives you
+
+
+596
+00:20:56,206 --> 00:20:57,716
+some predicted value that you
+
+
+597
+00:20:57,836 --> 00:20:59,476
+have to map to some desired
+
+
+598
+00:20:59,476 --> 00:20:59,956
+label.
+
+
+599
+00:20:59,956 --> 00:21:02,016
+And then you can compare that
+
+
+600
+00:21:02,016 --> 00:21:04,136
+label to your truth label and
+
+
+601
+00:21:04,226 --> 00:21:07,096
+start reiterating on it.
+
+
+602
+00:21:07,356 --> 00:21:09,806
+With Create ML though we took
+
+
+603
+00:21:09,806 --> 00:21:12,546
+away all these complexities so
+
+
+604
+00:21:12,546 --> 00:21:14,586
+that all you need to do is to
+
+
+605
+00:21:14,586 --> 00:21:16,976
+prepare raw text with the true
+
+
+606
+00:21:17,036 --> 00:21:19,116
+label and start training
+
+
+607
+00:21:19,566 --> 00:21:20,456
+immediately.
+
+
+608
+00:21:21,516 --> 00:21:27,236
+[ Applause ]
+
+
+609
+00:21:27,736 --> 00:21:29,576
+Now let me give you a concrete
+
+
+610
+00:21:29,576 --> 00:21:31,136
+example like how you can train
+
+
+611
+00:21:31,136 --> 00:21:33,306
+such a classifier and use it.
+
+
+612
+00:21:34,066 --> 00:21:36,286
+For example, we have this simple
+
+
+613
+00:21:36,426 --> 00:21:38,986
+App called Stay Positive, whose
+
+
+614
+00:21:39,086 --> 00:21:41,736
+purpose is to encourage positive
+
+
+615
+00:21:42,476 --> 00:21:42,606
+post.
+
+
+616
+00:21:43,356 --> 00:21:45,706
+If user entered "I hate traffic"
+
+
+617
+00:21:46,286 --> 00:21:48,366
+the background turns red and we
+
+
+618
+00:21:48,366 --> 00:21:49,746
+disable the post button.
+
+
+619
+00:21:50,516 --> 00:21:52,726
+[ Laughing ]
+
+
+620
+00:21:53,226 --> 00:21:55,086
+"I love driving my car at five
+
+
+621
+00:21:55,086 --> 00:21:57,886
+miles per hour just chilling in
+
+
+622
+00:21:58,626 --> 00:21:59,306
+traffic."
+
+
+623
+00:21:59,516 --> 00:22:00,596
+That's a positive post.
+
+
+624
+00:22:00,826 --> 00:22:02,526
+We encourage you to post it.
+
+
+625
+00:22:03,996 --> 00:22:05,756
+Just imagine what our Internet
+
+
+626
+00:22:05,756 --> 00:22:07,076
+would look like this with this
+
+
+627
+00:22:07,076 --> 00:22:08,896
+app running on everybody's
+
+
+628
+00:22:08,896 --> 00:22:09,346
+phone.
+
+
+629
+00:22:11,516 --> 00:22:14,586
+[ Applause ]
+
+
+630
+00:22:15,086 --> 00:22:16,216
+Now in order to do that let me
+
+
+631
+00:22:16,216 --> 00:22:18,000
+give you a live demo.
+
+
+632
+00:22:25,236 --> 00:22:27,846
+So to train such a classifier
+
+
+633
+00:22:27,846 --> 00:22:29,396
+the first thing I do is collect
+
+
+634
+00:22:29,396 --> 00:22:29,976
+some training data.
+
+
+635
+00:22:33,336 --> 00:22:35,626
+On my desktop I have a train
+
+
+636
+00:22:35,626 --> 00:22:37,326
+folder and also a test folder.
+
+
+637
+00:22:38,006 --> 00:22:39,506
+In train folder we have two
+
+
+638
+00:22:39,506 --> 00:22:40,046
+folders.
+
+
+639
+00:22:40,196 --> 00:22:41,696
+One is named positive, the other
+
+
+640
+00:22:41,696 --> 00:22:42,506
+one negative.
+
+
+641
+00:22:43,306 --> 00:22:44,586
+And there are a number of
+
+
+642
+00:22:44,586 --> 00:22:47,986
+articles in each folder and task
+
+
+643
+00:22:47,986 --> 00:22:49,696
+folder is organized in a very
+
+
+644
+00:22:49,696 --> 00:22:50,576
+similar way.
+
+
+645
+00:22:51,316 --> 00:22:55,996
+So the first thing I do is to
+
+
+646
+00:22:55,996 --> 00:22:59,076
+import Create ML.
+
+
+647
+00:22:59,326 --> 00:23:02,096
+Now I need to tell the program
+
+
+648
+00:23:02,096 --> 00:23:04,036
+where to find my training data.
+
+
+649
+00:23:04,426 --> 00:23:07,696
+For that I'm simply using a URL
+
+
+650
+00:23:07,806 --> 00:23:10,946
+capability and then I can start
+
+
+651
+00:23:10,946 --> 00:23:12,536
+training my model using the
+
+
+652
+00:23:12,536 --> 00:23:14,466
+label directories that Liza just
+
+
+653
+00:23:14,466 --> 00:23:14,866
+showed you.
+
+
+654
+00:23:14,866 --> 00:23:18,276
+Looks like the training has
+
+
+655
+00:23:18,276 --> 00:23:18,636
+started.
+
+
+656
+00:23:20,296 --> 00:23:21,546
+As you can see on the bottom
+
+
+657
+00:23:21,546 --> 00:23:23,046
+there there's some programs
+
+
+658
+00:23:23,046 --> 00:23:24,096
+report for you to check.
+
+
+659
+00:23:24,096 --> 00:23:26,626
+It looks like the training has
+
+
+660
+00:23:27,956 --> 00:23:28,166
+finished.
+
+
+661
+00:23:28,286 --> 00:23:30,446
+Now you can check some basic
+
+
+662
+00:23:30,446 --> 00:23:31,576
+performance numbers on this
+
+
+663
+00:23:31,576 --> 00:23:32,136
+model.
+
+
+664
+00:23:32,376 --> 00:23:32,976
+For example,
+
+
+665
+00:23:33,846 --> 00:23:36,756
+model.trainingmatrics, now it
+
+
+666
+00:23:36,756 --> 00:23:38,136
+shows you this model has been
+
+
+667
+00:23:38,136 --> 00:23:40,036
+trained on over 2,000 examples
+
+
+668
+00:23:40,876 --> 00:23:42,666
+and the accuracy is 100%.
+
+
+669
+00:23:45,786 --> 00:23:47,686
+But how does it perform on some
+
+
+670
+00:23:47,726 --> 00:23:48,446
+unseen data?
+
+
+671
+00:23:49,336 --> 00:23:51,216
+So I'm going to do the same to
+
+
+672
+00:23:51,246 --> 00:23:55,006
+define test data and then
+
+
+673
+00:23:56,256 --> 00:23:59,966
+evaluate that model on the test
+
+
+674
+00:24:01,196 --> 00:24:01,336
+data.
+
+
+675
+00:24:01,516 --> 00:24:04,226
+As you can see we have 77 test
+
+
+676
+00:24:04,416 --> 00:24:06,936
+examples and we are achieving
+
+
+677
+00:24:07,336 --> 00:24:10,846
+over 94% accuracy, which is very
+
+
+678
+00:24:10,846 --> 00:24:11,506
+good.
+
+
+679
+00:24:12,436 --> 00:24:13,726
+I'm sure you want to reiterate
+
+
+680
+00:24:13,726 --> 00:24:15,186
+on it if you want to see like
+
+
+681
+00:24:15,186 --> 00:24:17,786
+even higher number, but this
+
+
+682
+00:24:17,786 --> 00:24:19,816
+number is pretty good enough for
+
+
+683
+00:24:19,816 --> 00:24:20,016
+my app.
+
+
+684
+00:24:20,776 --> 00:24:22,336
+So let me just test it out.
+
+
+685
+00:24:23,206 --> 00:24:25,576
+So to save out the model what I
+
+
+686
+00:24:25,576 --> 00:24:28,336
+need to do is define a URL where
+
+
+687
+00:24:28,336 --> 00:24:32,386
+it's saving to and then write
+
+
+688
+00:24:32,386 --> 00:24:34,056
+out the model to my desktop.
+
+
+689
+00:24:34,636 --> 00:24:36,706
+It looks like that model has
+
+
+690
+00:24:36,746 --> 00:24:38,186
+been saved.
+
+
+691
+00:24:40,116 --> 00:24:41,786
+So now I need to switch back to
+
+
+692
+00:24:41,786 --> 00:24:42,276
+my app.
+
+
+693
+00:24:43,216 --> 00:24:45,046
+Just drag and drop it.
+
+
+694
+00:24:45,716 --> 00:24:46,626
+There you go.
+
+
+695
+00:24:51,526 --> 00:24:54,646
+Now I can start use it.
+
+
+696
+00:24:55,156 --> 00:24:57,576
+I will do let model equal to
+
+
+697
+00:24:57,576 --> 00:24:59,926
+TextClassifier, which should up
+
+
+698
+00:24:59,926 --> 00:25:00,446
+complete.
+
+
+699
+00:25:01,306 --> 00:25:03,116
+And then I'm going to insert
+
+
+700
+00:25:03,116 --> 00:25:05,126
+some basic inference code.
+
+
+701
+00:25:05,716 --> 00:25:08,596
+In this inference code as you
+
+
+702
+00:25:08,596 --> 00:25:10,896
+see the first like I do is using
+
+
+703
+00:25:10,896 --> 00:25:12,626
+model.prediction to get
+
+
+704
+00:25:12,626 --> 00:25:14,416
+prediction and then in order to
+
+
+705
+00:25:14,416 --> 00:25:15,786
+hook up with this simple App UI,
+
+
+706
+00:25:15,786 --> 00:25:17,596
+I just convert that it into some
+
+
+707
+00:25:17,596 --> 00:25:18,296
+double value.
+
+
+708
+00:25:18,296 --> 00:25:21,000
+Let's give it a try.
+
+
+709
+00:25:34,336 --> 00:25:35,916
+Yeah, let's try some example we
+
+
+710
+00:25:35,916 --> 00:25:36,656
+have showed you.
+
+
+711
+00:25:37,566 --> 00:25:38,726
+"I hate traffic".
+
+
+712
+00:25:40,046 --> 00:25:40,476
+Negative.
+
+
+713
+00:25:43,046 --> 00:25:46,426
+"I love driving my car at five
+
+
+714
+00:25:46,426 --> 00:25:49,926
+mile per hour just chilling in
+
+
+715
+00:25:50,316 --> 00:25:50,546
+traffic."
+
+
+716
+00:25:51,296 --> 00:25:53,746
+Positive. Let's try something
+
+
+717
+00:25:53,746 --> 00:25:54,146
+different.
+
+
+718
+00:25:54,366 --> 00:25:55,576
+That will be fun.
+
+
+719
+00:25:56,596 --> 00:25:59,396
+"Machine learning is hard,
+
+
+720
+00:25:59,566 --> 00:26:03,306
+Create ML makes it so easy."
+
+
+721
+00:26:04,416 --> 00:26:04,966
+Positive.
+
+
+722
+00:26:07,516 --> 00:26:11,056
+[ Applause ]
+
+
+723
+00:26:11,556 --> 00:26:12,936
+So that's how you train your
+
+
+724
+00:26:12,936 --> 00:26:15,666
+customized text classifier and
+
+
+725
+00:26:15,666 --> 00:26:16,976
+drag it into your app to use it.
+
+
+726
+00:26:23,046 --> 00:26:24,286
+Here's the recap.
+
+
+727
+00:26:25,716 --> 00:26:27,606
+So to train such a classifier
+
+
+728
+00:26:27,746 --> 00:26:29,026
+the first thing you would do is
+
+
+729
+00:26:29,026 --> 00:26:30,136
+to specify data.
+
+
+730
+00:26:31,106 --> 00:26:33,036
+You specify training data as
+
+
+731
+00:26:33,096 --> 00:26:34,386
+well as your test data.
+
+
+732
+00:26:35,836 --> 00:26:37,126
+And then you can create your
+
+
+733
+00:26:37,126 --> 00:26:40,186
+model on the training data to
+
+
+734
+00:26:40,186 --> 00:26:42,536
+evaluate these performance you
+
+
+735
+00:26:42,536 --> 00:26:44,126
+evaluate a model on the test
+
+
+736
+00:26:44,126 --> 00:26:44,356
+data.
+
+
+737
+00:26:45,676 --> 00:26:48,016
+Finally to use your model in
+
+
+738
+00:26:48,016 --> 00:26:50,606
+your app you simply save it out
+
+
+739
+00:26:50,606 --> 00:26:53,216
+using this right API.
+
+
+740
+00:26:56,076 --> 00:26:59,466
+To summarize, with just a few
+
+
+741
+00:26:59,466 --> 00:27:01,746
+lines of code you can train your
+
+
+742
+00:27:01,786 --> 00:27:03,866
+customized text classifier
+
+
+743
+00:27:05,026 --> 00:27:06,406
+simple intuitive.
+
+
+744
+00:27:06,926 --> 00:27:10,086
+With that, I'd like to hand back
+
+
+745
+00:27:10,086 --> 00:27:11,466
+to Gaurav who is going to talk
+
+
+746
+00:27:11,466 --> 00:27:12,586
+about tabula data.
+
+
+747
+00:27:13,136 --> 00:27:13,516
+Thank you.
+
+
+748
+00:27:14,516 --> 00:27:18,866
+[ Applause ]
+
+
+749
+00:27:19,366 --> 00:27:22,476
+>> Thank you Tau.
+
+
+750
+00:27:22,716 --> 00:27:24,726
+Besides images and texts,
+
+
+751
+00:27:24,726 --> 00:27:26,296
+another common source of data
+
+
+752
+00:27:26,496 --> 00:27:27,836
+that requires very frequently
+
+
+753
+00:27:27,836 --> 00:27:29,026
+when you're solving a machine
+
+
+754
+00:27:29,026 --> 00:27:30,436
+learning problem is tabular
+
+
+755
+00:27:30,436 --> 00:27:30,596
+data.
+
+
+756
+00:27:31,876 --> 00:27:33,416
+What I mean by tabular data I
+
+
+757
+00:27:33,416 --> 00:27:35,346
+mean the data is spread sheet
+
+
+758
+00:27:35,376 --> 00:27:37,096
+format or in a table format.
+
+
+759
+00:27:37,566 --> 00:27:39,016
+This kind of data occurs fairly
+
+
+760
+00:27:39,016 --> 00:27:39,596
+frequently.
+
+
+761
+00:27:40,656 --> 00:27:42,486
+For example, let's just you're
+
+
+762
+00:27:42,486 --> 00:27:44,256
+trying to predict house prices
+
+
+763
+00:27:44,256 --> 00:27:45,656
+using number of beds, number of
+
+
+764
+00:27:45,656 --> 00:27:47,086
+baths, or square footage,
+
+
+765
+00:27:47,716 --> 00:27:49,256
+generally the data is arranged
+
+
+766
+00:27:49,336 --> 00:27:50,336
+in a tabular format.
+
+
+767
+00:27:50,336 --> 00:27:53,536
+You want to predict the quality
+
+
+768
+00:27:53,536 --> 00:27:54,876
+of wine using its chemical
+
+
+769
+00:27:54,876 --> 00:27:55,826
+compositions.
+
+
+770
+00:27:56,206 --> 00:27:57,226
+Chances are data will be
+
+
+771
+00:27:57,226 --> 00:27:58,346
+arranged in table format.
+
+
+772
+00:27:58,946 --> 00:28:00,556
+Or something even simple where
+
+
+773
+00:28:00,556 --> 00:28:02,006
+to hop -- which bar to hop
+
+
+774
+00:28:02,006 --> 00:28:04,166
+tonight using happy hour or
+
+
+775
+00:28:04,406 --> 00:28:06,406
+price the data will be in
+
+
+776
+00:28:06,666 --> 00:28:07,986
+tabular format.
+
+
+777
+00:28:09,576 --> 00:28:12,956
+To handle the data, which is in
+
+
+778
+00:28:12,956 --> 00:28:15,346
+tabular format, we actually
+
+
+779
+00:28:16,006 --> 00:28:17,726
+introduce a new data structure,
+
+
+780
+00:28:17,726 --> 00:28:19,566
+which we call as MLDataTable.
+
+
+781
+00:28:20,386 --> 00:28:22,756
+MLDataTable is based on
+
+
+782
+00:28:22,756 --> 00:28:24,756
+[inaudible] technology that we
+
+
+783
+00:28:24,756 --> 00:28:26,436
+will discuss in detail tomorrow.
+
+
+784
+00:28:26,916 --> 00:28:29,016
+There's something interesting
+
+
+785
+00:28:29,016 --> 00:28:30,176
+about these data tables.
+
+
+786
+00:28:31,756 --> 00:28:32,996
+The rows contain the
+
+
+787
+00:28:32,996 --> 00:28:35,146
+observations, or examples.
+
+
+788
+00:28:35,236 --> 00:28:36,836
+So here house number two has
+
+
+789
+00:28:36,946 --> 00:28:39,116
+four bed, three bath, and 500K
+
+
+790
+00:28:39,196 --> 00:28:39,556
+price.
+
+
+791
+00:28:40,216 --> 00:28:42,886
+The columns contains what we
+
+
+792
+00:28:42,886 --> 00:28:43,766
+call as features.
+
+
+793
+00:28:44,186 --> 00:28:45,516
+So the beds are features, baths
+
+
+794
+00:28:46,526 --> 00:28:48,306
+are features, square feet,
+
+
+795
+00:28:48,846 --> 00:28:49,776
+etcetera, are features.
+
+
+796
+00:28:51,096 --> 00:28:52,856
+There is one spatial column that
+
+
+797
+00:28:52,896 --> 00:28:55,326
+we want to predict, in this case
+
+
+798
+00:28:55,476 --> 00:28:58,506
+price, and this feature in this
+
+
+799
+00:28:58,506 --> 00:29:00,136
+column is known as target or
+
+
+800
+00:29:00,136 --> 00:29:01,176
+response variable.
+
+
+801
+00:29:01,926 --> 00:29:03,426
+The whole idea behind tabular
+
+
+802
+00:29:03,426 --> 00:29:05,016
+data is that we want to predict
+
+
+803
+00:29:05,016 --> 00:29:07,336
+target variable as a function of
+
+
+804
+00:29:07,536 --> 00:29:09,736
+one or many of these features.
+
+
+805
+00:29:13,046 --> 00:29:14,966
+So what are the common sources
+
+
+806
+00:29:14,966 --> 00:29:15,646
+that we support?
+
+
+807
+00:29:15,646 --> 00:29:18,126
+Well, CSV, JSON, as well you can
+
+
+808
+00:29:18,206 --> 00:29:20,186
+actually have code.
+
+
+809
+00:29:20,666 --> 00:29:21,826
+So let's take a little bit more
+
+
+810
+00:29:23,326 --> 00:29:25,776
+about MLDataTable.
+
+
+811
+00:29:26,286 --> 00:29:29,826
+First you can read data simply
+
+
+812
+00:29:29,826 --> 00:29:32,236
+by using CSV.
+
+
+813
+00:29:32,706 --> 00:29:35,426
+What is more important that you
+
+
+814
+00:29:35,426 --> 00:29:37,516
+can access the column using a
+
+
+815
+00:29:37,566 --> 00:29:38,686
+subscript notation.
+
+
+816
+00:29:38,876 --> 00:29:40,306
+So all you do is house at a
+
+
+817
+00:29:40,376 --> 00:29:42,206
+price and you get an entire of
+
+
+818
+00:29:42,596 --> 00:29:42,886
+price.
+
+
+819
+00:29:45,356 --> 00:29:47,246
+You can add to column, subtract
+
+
+820
+00:29:47,246 --> 00:29:48,826
+to column, multiply to column,
+
+
+821
+00:29:48,826 --> 00:29:49,776
+divide to columns.
+
+
+822
+00:29:50,566 --> 00:29:53,256
+And the way you do it is in very
+
+
+823
+00:29:53,256 --> 00:29:54,576
+natural looking syntax.
+
+
+824
+00:29:54,576 --> 00:29:55,726
+So you just simply say house
+
+
+825
+00:29:55,726 --> 00:29:57,286
+data price divided by house data
+
+
+826
+00:29:57,286 --> 00:29:59,246
+square feet to get price per
+
+
+827
+00:29:59,246 --> 00:29:59,766
+square feet.
+
+
+828
+00:30:01,016 --> 00:30:03,056
+Behind the scenes this
+
+
+829
+00:30:03,126 --> 00:30:04,816
+calculation is done using
+
+
+830
+00:30:04,816 --> 00:30:07,506
+evaluation and through vector
+
+
+831
+00:30:07,506 --> 00:30:08,086
+operations.
+
+
+832
+00:30:08,816 --> 00:30:11,226
+You can also do some of the
+
+
+833
+00:30:11,226 --> 00:30:12,716
+other interesting things, for
+
+
+834
+00:30:12,716 --> 00:30:14,846
+example you can split data table
+
+
+835
+00:30:14,846 --> 00:30:17,126
+in training intercept as well as
+
+
+836
+00:30:17,126 --> 00:30:18,476
+you can even do a filtering.
+
+
+837
+00:30:18,636 --> 00:30:20,026
+So for example, if you're only
+
+
+838
+00:30:20,026 --> 00:30:21,776
+interested in large houses, you
+
+
+839
+00:30:21,776 --> 00:30:23,256
+can clear and indicate a
+
+
+840
+00:30:23,256 --> 00:30:24,776
+variable and filter it out.
+
+
+841
+00:30:26,006 --> 00:30:27,376
+There are a lot of operations
+
+
+842
+00:30:27,376 --> 00:30:29,536
+that data table support.
+
+
+843
+00:30:29,536 --> 00:30:31,566
+I urge you to try it out in
+
+
+844
+00:30:31,566 --> 00:30:32,506
+Xcode Playground.
+
+
+845
+00:30:32,656 --> 00:30:33,836
+They're fun.
+
+
+846
+00:30:36,056 --> 00:30:37,296
+Now once we have data in data
+
+
+847
+00:30:37,296 --> 00:30:38,586
+table you will like to do the
+
+
+848
+00:30:38,636 --> 00:30:39,316
+training on it.
+
+
+849
+00:30:40,726 --> 00:30:42,596
+Create ML supports large number
+
+
+850
+00:30:42,596 --> 00:30:44,296
+of algorithms such as Boosted
+
+
+851
+00:30:44,296 --> 00:30:46,576
+Tree, Regularized Regression,
+
+
+852
+00:30:46,576 --> 00:30:48,036
+Random Forest, etcetera.
+
+
+853
+00:30:49,146 --> 00:30:51,416
+And all of these algorithms are
+
+
+854
+00:30:51,416 --> 00:30:52,386
+represented by their class.
+
+
+855
+00:30:52,386 --> 00:30:56,016
+In order to train your model you
+
+
+856
+00:30:56,016 --> 00:30:57,326
+only have to write one line of
+
+
+857
+00:30:57,416 --> 00:30:57,716
+code.
+
+
+858
+00:30:58,126 --> 00:30:59,666
+Basically you tell what is the
+
+
+859
+00:30:59,716 --> 00:31:01,926
+target and where you are getting
+
+
+860
+00:31:01,926 --> 00:31:03,346
+the data and which is the
+
+
+861
+00:31:03,346 --> 00:31:04,766
+algorithm you are instantiating.
+
+
+862
+00:31:05,356 --> 00:31:06,896
+So in this case, let's just say
+
+
+863
+00:31:06,896 --> 00:31:07,726
+you are running Linear
+
+
+864
+00:31:07,726 --> 00:31:10,186
+Regression, or Regularized
+
+
+865
+00:31:10,186 --> 00:31:11,356
+Linear Regression, you just
+
+
+866
+00:31:11,356 --> 00:31:13,726
+actually tell it that the data
+
+
+867
+00:31:13,726 --> 00:31:15,566
+is house data and the column is
+
+
+868
+00:31:16,456 --> 00:31:16,606
+price.
+
+
+869
+00:31:19,076 --> 00:31:20,906
+If you do Boosted Tree
+
+
+870
+00:31:20,906 --> 00:31:22,636
+Regression, just replace Linear
+
+
+871
+00:31:22,636 --> 00:31:23,926
+Regression with Boosted Tree and
+
+
+872
+00:31:23,926 --> 00:31:24,566
+you're all set.
+
+
+873
+00:31:25,566 --> 00:31:27,826
+Now Random Forest like that.
+
+
+874
+00:31:29,206 --> 00:31:32,226
+Plus we also provide a high
+
+
+875
+00:31:32,226 --> 00:31:34,266
+level abstraction ML Regression
+
+
+876
+00:31:34,406 --> 00:31:35,956
+that automatically runs all
+
+
+877
+00:31:35,956 --> 00:31:37,506
+these algorithms and choose the
+
+
+878
+00:31:37,506 --> 00:31:37,976
+best one for you.
+
+
+879
+00:31:38,516 --> 00:31:45,076
+[ Applause ]
+
+
+880
+00:31:45,576 --> 00:31:46,746
+This is inline with our
+
+
+881
+00:31:46,746 --> 00:31:48,726
+philosophy that you should focus
+
+
+882
+00:31:48,726 --> 00:31:49,106
+on task.
+
+
+883
+00:31:49,106 --> 00:31:50,366
+And the task is to predict the
+
+
+884
+00:31:50,416 --> 00:31:50,796
+price.
+
+
+885
+00:31:50,796 --> 00:31:52,036
+You should not focus about
+
+
+886
+00:31:52,396 --> 00:31:53,546
+nitty-gritty details of the
+
+
+887
+00:31:53,546 --> 00:31:54,166
+algorithm.
+
+
+888
+00:31:54,936 --> 00:31:56,736
+Having said that in case you are
+
+
+889
+00:31:56,736 --> 00:31:58,766
+expert you can actually use
+
+
+890
+00:31:58,766 --> 00:32:00,196
+Booster Tree and change its
+
+
+891
+00:32:00,196 --> 00:32:01,386
+parameters also.
+
+
+892
+00:32:06,436 --> 00:32:08,346
+So a complete end-to-end would
+
+
+893
+00:32:08,346 --> 00:32:09,006
+look like this.
+
+
+894
+00:32:09,896 --> 00:32:12,276
+It follows exactly the same
+
+
+895
+00:32:12,276 --> 00:32:14,076
+pattern as image and text.
+
+
+896
+00:32:14,466 --> 00:32:17,836
+First you specify the data.
+
+
+897
+00:32:18,166 --> 00:32:20,506
+Second you just create your
+
+
+898
+00:32:21,536 --> 00:32:21,986
+model.
+
+
+899
+00:32:22,426 --> 00:32:23,846
+Third you evaluate the model.
+
+
+900
+00:32:25,236 --> 00:32:27,006
+And once you're happy you save
+
+
+901
+00:32:27,006 --> 00:32:27,246
+it all.
+
+
+902
+00:32:28,426 --> 00:32:31,686
+So table of data, image data,
+
+
+903
+00:32:31,686 --> 00:32:33,526
+and text data, they all follow
+
+
+904
+00:32:33,526 --> 00:32:35,086
+the same pattern.
+
+
+905
+00:32:37,756 --> 00:32:39,356
+So let's just take a quick
+
+
+906
+00:32:39,356 --> 00:32:41,736
+summary of what we saw in this
+
+
+907
+00:32:41,836 --> 00:32:42,236
+session.
+
+
+908
+00:32:46,076 --> 00:32:48,336
+So Create ML is our ML framework
+
+
+909
+00:32:48,336 --> 00:32:49,226
+in Swift.
+
+
+910
+00:32:49,226 --> 00:32:51,036
+It's very simple to use and it
+
+
+911
+00:32:51,036 --> 00:32:52,756
+is very powerful and it
+
+
+912
+00:32:52,756 --> 00:32:53,726
+leverages Core Apple
+
+
+913
+00:32:53,726 --> 00:32:54,626
+Technologies.
+
+
+914
+00:32:54,716 --> 00:32:56,106
+You do end to end machine
+
+
+915
+00:32:56,106 --> 00:32:58,546
+learning in Swift on your Mac.
+
+
+916
+00:33:01,136 --> 00:33:03,286
+We also discussed about our work
+
+
+917
+00:33:03,286 --> 00:33:03,916
+flow.
+
+
+918
+00:33:04,866 --> 00:33:07,036
+Once again, you start from an
+
+
+919
+00:33:07,036 --> 00:33:07,776
+experience.
+
+
+920
+00:33:08,456 --> 00:33:09,456
+What is the experience you're
+
+
+921
+00:33:09,456 --> 00:33:10,246
+trying to enable?
+
+
+922
+00:33:11,596 --> 00:33:13,076
+Then define the problem.
+
+
+923
+00:33:13,826 --> 00:33:16,056
+Then collect the data, make sure
+
+
+924
+00:33:16,056 --> 00:33:17,806
+this data is reflective of the
+
+
+925
+00:33:17,806 --> 00:33:20,136
+real world usage of your
+
+
+926
+00:33:20,136 --> 00:33:20,656
+scenario.
+
+
+927
+00:33:21,486 --> 00:33:23,016
+Then you train the model and
+
+
+928
+00:33:23,416 --> 00:33:25,076
+then finally evaluate it.
+
+
+929
+00:33:25,906 --> 00:33:28,286
+And once you are happy you just
+
+
+930
+00:33:28,356 --> 00:33:28,746
+save it out.
+
+
+931
+00:33:32,516 --> 00:33:35,676
+Create ML is in Swift and it's
+
+
+932
+00:33:35,676 --> 00:33:36,956
+available on macOS Mojave.
+
+
+933
+00:33:40,726 --> 00:33:42,276
+You can use it in Xcode
+
+
+934
+00:33:42,276 --> 00:33:44,506
+Playground, Swift Scripts, and
+
+
+935
+00:33:44,506 --> 00:33:45,186
+Swift for Apple.
+
+
+936
+00:33:46,046 --> 00:33:48,426
+So please try it out.
+
+
+937
+00:33:50,206 --> 00:33:51,666
+We would love to hear from you.
+
+
+938
+00:33:51,666 --> 00:33:53,456
+We are here to receive your
+
+
+939
+00:33:53,456 --> 00:33:55,836
+feedback and we hope that you
+
+
+940
+00:33:55,836 --> 00:33:56,976
+will love it as much as we do.
+
+
+941
+00:34:00,046 --> 00:34:01,276
+We will be in Machine Learning
+
+
+942
+00:34:01,276 --> 00:34:03,036
+Get Together as well as in Labs
+
+
+943
+00:34:03,176 --> 00:34:04,216
+so there is tomorrow there's a
+
+
+944
+00:34:04,216 --> 00:34:04,836
+Get Together.
+
+
+945
+00:34:05,266 --> 00:34:06,636
+We will be in Labs also.
+
+
+946
+00:34:06,836 --> 00:34:08,116
+So please give us your feedback.
+
+
+947
+00:34:09,226 --> 00:34:10,755
+There are also related sessions
+
+
+948
+00:34:10,755 --> 00:34:11,876
+in the WWDC App.
+
+
+949
+00:34:12,036 --> 00:34:14,505
+We have Core ML session tomorrow
+
+
+950
+00:34:14,505 --> 00:34:17,755
+morning and an ML Session
+
+
+951
+00:34:17,755 --> 00:34:18,956
+tomorrow afternoon.
+
+
+952
+00:34:19,235 --> 00:34:23,946
+Vision session on Thursday and
+
+
+953
+00:34:24,436 --> 00:34:26,306
+we have Labs on Wednesday and
+
+
+954
+00:34:26,306 --> 00:34:26,686
+Friday.
+
+
+955
+00:34:27,346 --> 00:34:28,396
+Thank you.
+
+
+956
+00:34:29,016 --> 00:34:35,500
+[ Applause ]
+

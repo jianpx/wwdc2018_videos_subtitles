@@ -1,0 +1,5704 @@
+1
+00:00:07,016 --> 00:00:15,500
+[ Music ]
+
+
+2
+00:00:20,716 --> 00:00:21,676
+>> Good morning.
+
+
+3
+00:00:21,676 --> 00:00:21,976
+Welcome to our --
+
+
+4
+00:00:22,156 --> 00:00:23,426
+Thank you.
+
+
+5
+00:00:23,426 --> 00:00:23,906
+Thank you.
+
+
+6
+00:00:24,456 --> 00:00:25,746
+It's great to be here.
+
+
+7
+00:00:25,746 --> 00:00:26,986
+Thanks everybody for coming.
+
+
+8
+00:00:27,656 --> 00:00:29,026
+Welcome to our session on
+
+
+9
+00:00:29,026 --> 00:00:31,386
+inducing Podcast Analytics.
+
+
+10
+00:00:31,906 --> 00:00:33,626
+I'm James Boggs I manage the
+
+
+11
+00:00:33,626 --> 00:00:36,376
+business team for Apple Podcasts
+
+
+12
+00:00:36,376 --> 00:00:37,386
+and Siri Auto Briefs.
+
+
+13
+00:00:37,976 --> 00:00:39,486
+And we've got a great session
+
+
+14
+00:00:39,486 --> 00:00:40,096
+planned for you today.
+
+
+15
+00:00:40,096 --> 00:00:41,116
+First, I'm going to share some
+
+
+16
+00:00:41,116 --> 00:00:43,456
+details of our podcast business
+
+
+17
+00:00:43,456 --> 00:00:45,086
+over the last year, including
+
+
+18
+00:00:45,086 --> 00:00:47,136
+some very interesting and
+
+
+19
+00:00:47,136 --> 00:00:48,476
+exciting milestones.
+
+
+20
+00:00:48,476 --> 00:00:51,306
+Then I'm going to welcome Anne
+
+
+21
+00:00:51,306 --> 00:00:52,776
+Wootten from our engineering
+
+
+22
+00:00:52,776 --> 00:00:54,356
+team to the stage, and she's
+
+
+23
+00:00:54,356 --> 00:00:55,326
+going to take us through some
+
+
+24
+00:00:55,326 --> 00:00:58,966
+updates to Podcast app for iOS
+
+
+25
+00:00:59,556 --> 00:01:00,486
+12.
+
+
+26
+00:01:00,486 --> 00:01:03,176
+After Anne, Alec Reitter will
+
+
+27
+00:01:03,646 --> 00:01:05,046
+take us through a demo of
+
+
+28
+00:01:05,046 --> 00:01:06,486
+Podcast Analytics.
+
+
+29
+00:01:06,716 --> 00:01:10,236
+And then, we will finish up with
+
+
+30
+00:01:10,236 --> 00:01:12,366
+Anne sharing some requirements
+
+
+31
+00:01:12,366 --> 00:01:13,766
+and taking a look at resources
+
+
+32
+00:01:13,766 --> 00:01:15,396
+available to podcast makers.
+
+
+33
+00:01:16,616 --> 00:01:18,746
+First off, an update on our
+
+
+34
+00:01:18,786 --> 00:01:20,106
+podcast business.
+
+
+35
+00:01:21,146 --> 00:01:23,676
+Well, we're just shy of the 13th
+
+
+36
+00:01:23,716 --> 00:01:25,756
+anniversary of the launch of
+
+
+37
+00:01:25,756 --> 00:01:28,026
+iTunes 4.9.
+
+
+38
+00:01:28,556 --> 00:01:29,926
+That's the moment when we took
+
+
+39
+00:01:30,096 --> 00:01:32,556
+podcast mainstream for the first
+
+
+40
+00:01:32,556 --> 00:01:32,876
+time.
+
+
+41
+00:01:33,546 --> 00:01:35,646
+And podcasts have come a long
+
+
+42
+00:01:35,646 --> 00:01:36,426
+way since then.
+
+
+43
+00:01:36,816 --> 00:01:38,936
+Our constant catalog has never
+
+
+44
+00:01:38,936 --> 00:01:40,116
+been more entertaining,
+
+
+45
+00:01:40,246 --> 00:01:42,076
+inspiring and educational.
+
+
+46
+00:01:42,246 --> 00:01:43,746
+And we've never reached more
+
+
+47
+00:01:43,746 --> 00:01:46,036
+listeners around the world than
+
+
+48
+00:01:46,036 --> 00:01:46,956
+we do right now.
+
+
+49
+00:01:47,456 --> 00:01:49,076
+We're reaching them with some
+
+
+50
+00:01:49,076 --> 00:01:51,896
+great programming like "Sandra"
+
+
+51
+00:01:52,036 --> 00:01:52,706
+from Gimlet.
+
+
+52
+00:01:53,866 --> 00:01:56,866
+This is a brand-new program from
+
+
+53
+00:01:56,866 --> 00:01:58,266
+one of the leading independent
+
+
+54
+00:01:58,266 --> 00:01:59,936
+podcast networks out of New
+
+
+55
+00:01:59,936 --> 00:02:00,266
+York.
+
+
+56
+00:02:00,786 --> 00:02:02,416
+And it stars really big talent
+
+
+57
+00:02:02,576 --> 00:02:04,676
+Kristen Wiig, Alia Shawkat and
+
+
+58
+00:02:04,676 --> 00:02:05,276
+Ethan Hawke.
+
+
+59
+00:02:05,836 --> 00:02:07,626
+It's a really fun, scripted
+
+
+60
+00:02:07,626 --> 00:02:09,256
+comedy drama about the inner
+
+
+61
+00:02:09,256 --> 00:02:11,226
+workings and quirks of a virtual
+
+
+62
+00:02:11,226 --> 00:02:12,946
+assistant.
+
+
+63
+00:02:14,246 --> 00:02:16,876
+Los Angeles-based Wondery, is
+
+
+64
+00:02:16,876 --> 00:02:18,446
+one of the venture capital
+
+
+65
+00:02:18,446 --> 00:02:20,686
+backed network startups working
+
+
+66
+00:02:20,686 --> 00:02:22,016
+in podcast today.
+
+
+67
+00:02:22,366 --> 00:02:23,376
+And last year, Wondery
+
+
+68
+00:02:23,376 --> 00:02:25,356
+collaborated with "The LA Times"
+
+
+69
+00:02:25,436 --> 00:02:27,316
+to produce the thrilling true
+
+
+70
+00:02:27,316 --> 00:02:29,326
+crime story of a charming but
+
+
+71
+00:02:29,806 --> 00:02:32,106
+sociopathic con man, Dirty John.
+
+
+72
+00:02:32,846 --> 00:02:34,686
+The Hollywood style production
+
+
+73
+00:02:34,686 --> 00:02:36,686
+values, powerful investigative
+
+
+74
+00:02:36,686 --> 00:02:39,156
+journalism and remarkable
+
+
+75
+00:02:39,276 --> 00:02:40,556
+storytelling, which is just
+
+
+76
+00:02:40,646 --> 00:02:41,186
+riveting.
+
+
+77
+00:02:41,586 --> 00:02:42,756
+It drove this show to the top of
+
+
+78
+00:02:42,756 --> 00:02:44,706
+the charts in the US, several
+
+
+79
+00:02:44,706 --> 00:02:45,976
+other markets around the world.
+
+
+80
+00:02:45,976 --> 00:02:47,456
+If you haven't had a chance to
+
+
+81
+00:02:47,456 --> 00:02:48,586
+check it out, I recommend it.
+
+
+82
+00:02:48,586 --> 00:02:49,416
+It's a great binge.
+
+
+83
+00:02:49,946 --> 00:02:54,096
+And of course, podcast fans
+
+
+84
+00:02:54,136 --> 00:02:56,516
+everywhere are thrilled and
+
+
+85
+00:02:56,516 --> 00:02:58,986
+enjoying "Oprah's Super Soul
+
+
+86
+00:02:58,986 --> 00:02:59,896
+Conversations."
+
+
+87
+00:02:59,896 --> 00:03:02,496
+This is the audio installment of
+
+
+88
+00:03:02,496 --> 00:03:04,396
+the queen of talk's iconic
+
+
+89
+00:03:04,606 --> 00:03:05,956
+interview franchise.
+
+
+90
+00:03:06,436 --> 00:03:07,596
+And we are overjoyed to have
+
+
+91
+00:03:07,596 --> 00:03:08,946
+Oprah on Apple Podcast.
+
+
+92
+00:03:10,016 --> 00:03:12,666
+These examples are just three of
+
+
+93
+00:03:12,666 --> 00:03:16,096
+the more than 550,000 shows
+
+
+94
+00:03:16,096 --> 00:03:17,406
+available today on Apple
+
+
+95
+00:03:17,406 --> 00:03:18,096
+Podcasts.
+
+
+96
+00:03:18,696 --> 00:03:20,246
+That's quite a bit more content
+
+
+97
+00:03:20,246 --> 00:03:21,476
+to listen to than the original
+
+
+98
+00:03:21,476 --> 00:03:23,416
+3,000 programs we launched with
+
+
+99
+00:03:23,906 --> 00:03:26,966
+back in 2005.
+
+
+100
+00:03:27,106 --> 00:03:28,456
+We're continually refreshing and
+
+
+101
+00:03:28,456 --> 00:03:29,836
+managing our directory.
+
+
+102
+00:03:29,916 --> 00:03:31,846
+Automatically retiring shows
+
+
+103
+00:03:31,846 --> 00:03:32,966
+which become technically
+
+
+104
+00:03:32,966 --> 00:03:34,666
+unavailable, or those that run
+
+
+105
+00:03:34,666 --> 00:03:36,696
+afoul of our directory content
+
+
+106
+00:03:36,696 --> 00:03:37,386
+guidelines.
+
+
+107
+00:03:37,936 --> 00:03:39,326
+Such as those with spammy
+
+
+108
+00:03:39,326 --> 00:03:41,136
+content or shows seeking to
+
+
+109
+00:03:41,136 --> 00:03:42,786
+manipulate our top charts.
+
+
+110
+00:03:43,406 --> 00:03:43,916
+Don't do that.
+
+
+111
+00:03:43,916 --> 00:03:44,976
+Just, please don't do that.
+
+
+112
+00:03:45,536 --> 00:03:46,856
+At the same time as we're
+
+
+113
+00:03:46,856 --> 00:03:48,506
+managing the directory, we're
+
+
+114
+00:03:48,506 --> 00:03:50,006
+accepting thousands of new
+
+
+115
+00:03:50,006 --> 00:03:51,196
+submissions per week.
+
+
+116
+00:03:51,696 --> 00:03:53,286
+That way, our catalog is
+
+
+117
+00:03:53,286 --> 00:03:55,236
+continually refreshed and our
+
+
+118
+00:03:55,236 --> 00:03:56,546
+users around the world can
+
+
+119
+00:03:56,546 --> 00:03:57,976
+always find something great to
+
+
+120
+00:03:58,036 --> 00:04:00,046
+listen to.
+
+
+121
+00:04:00,386 --> 00:04:03,646
+Amongst those more than 550,000
+
+
+122
+00:04:03,676 --> 00:04:06,886
+active shows, we have over 18.5
+
+
+123
+00:04:06,946 --> 00:04:08,956
+million episodes of content.
+
+
+124
+00:04:08,956 --> 00:04:11,406
+That's more than 8 million hours
+
+
+125
+00:04:11,406 --> 00:04:12,066
+of programming.
+
+
+126
+00:04:12,066 --> 00:04:13,596
+So, you better start listening,
+
+
+127
+00:04:13,686 --> 00:04:14,636
+you better start binging.
+
+
+128
+00:04:15,196 --> 00:04:18,336
+As a reminder Apple Podcasts is
+
+
+129
+00:04:18,375 --> 00:04:21,065
+available in 155 countries.
+
+
+130
+00:04:21,526 --> 00:04:22,456
+That's not only for the
+
+
+131
+00:04:22,456 --> 00:04:24,626
+distribution of existing shows,
+
+
+132
+00:04:24,706 --> 00:04:26,076
+but for the submission and
+
+
+133
+00:04:26,076 --> 00:04:27,706
+acceptance of new programming
+
+
+134
+00:04:27,706 --> 00:04:28,926
+from each one of those markets.
+
+
+135
+00:04:30,636 --> 00:04:32,756
+The podcast directory serves an
+
+
+136
+00:04:32,756 --> 00:04:34,746
+audience in all 155 of those
+
+
+137
+00:04:34,746 --> 00:04:36,756
+countries with content in more
+
+
+138
+00:04:36,756 --> 00:04:38,086
+than 100 languages.
+
+
+139
+00:04:38,596 --> 00:04:40,176
+So, that means if you're a
+
+
+140
+00:04:40,296 --> 00:04:42,436
+Korean native speaker, ex-pat
+
+
+141
+00:04:42,636 --> 00:04:44,896
+living in Toronto, you can find
+
+
+142
+00:04:44,896 --> 00:04:46,446
+some great audio programming
+
+
+143
+00:04:46,446 --> 00:04:47,866
+from home right in Apple
+
+
+144
+00:04:47,866 --> 00:04:48,616
+Podcasts.
+
+
+145
+00:04:49,026 --> 00:04:50,436
+And we're particularly proud of
+
+
+146
+00:04:50,436 --> 00:04:50,636
+this.
+
+
+147
+00:04:50,636 --> 00:04:52,256
+Particularly proud to have such
+
+
+148
+00:04:52,256 --> 00:04:54,336
+a diverse catalog and be one of
+
+
+149
+00:04:54,336 --> 00:04:56,076
+the easiest ways to reach a
+
+
+150
+00:04:56,076 --> 00:04:57,676
+global audience for audio
+
+
+151
+00:04:57,676 --> 00:04:59,626
+programming that there is.
+
+
+152
+00:05:00,856 --> 00:05:03,676
+The data from our beta version
+
+
+153
+00:05:03,676 --> 00:05:05,616
+of Podcast Analytics shows some
+
+
+154
+00:05:05,616 --> 00:05:07,566
+remarkable listener affinity and
+
+
+155
+00:05:07,566 --> 00:05:08,096
+engagement.
+
+
+156
+00:05:08,826 --> 00:05:10,926
+We looked at several hundred of
+
+
+157
+00:05:10,926 --> 00:05:13,006
+our recent top episodes, those
+
+
+158
+00:05:13,006 --> 00:05:14,496
+with more than seven days of
+
+
+159
+00:05:14,496 --> 00:05:16,426
+playback data, and we found some
+
+
+160
+00:05:16,426 --> 00:05:17,606
+really notable average
+
+
+161
+00:05:17,606 --> 00:05:18,226
+consumption.
+
+
+162
+00:05:18,876 --> 00:05:20,966
+Of courses, data is anonymized
+
+
+163
+00:05:20,966 --> 00:05:22,996
+and aggregated and a sample.
+
+
+164
+00:05:23,596 --> 00:05:25,286
+So, no personally identifiable
+
+
+165
+00:05:25,286 --> 00:05:26,726
+information is included and it's
+
+
+166
+00:05:26,726 --> 00:05:28,606
+not a comprehensive statistic,
+
+
+167
+00:05:28,676 --> 00:05:30,146
+but interesting nonetheless.
+
+
+168
+00:05:30,706 --> 00:05:32,626
+It shows that once an episode is
+
+
+169
+00:05:32,626 --> 00:05:35,436
+started, on average about 80% of
+
+
+170
+00:05:35,436 --> 00:05:36,826
+that episode content was
+
+
+171
+00:05:36,826 --> 00:05:37,396
+consumed.
+
+
+172
+00:05:37,476 --> 00:05:38,836
+This is great stuff.
+
+
+173
+00:05:38,836 --> 00:05:40,306
+And a real testament to the
+
+
+174
+00:05:40,306 --> 00:05:41,956
+affinity and engagement the
+
+
+175
+00:05:41,956 --> 00:05:43,526
+podcast audience has with this
+
+
+176
+00:05:43,526 --> 00:05:46,276
+high-quality content.
+
+
+177
+00:05:46,856 --> 00:05:48,896
+Last fall, we successfully
+
+
+178
+00:05:48,896 --> 00:05:50,886
+integrated more than 50,000
+
+
+179
+00:05:51,066 --> 00:05:53,226
+iTunes U collections into Apple
+
+
+180
+00:05:53,226 --> 00:05:53,926
+Podcast.
+
+
+181
+00:05:54,626 --> 00:05:56,196
+This is content from some of the
+
+
+182
+00:05:56,196 --> 00:05:57,936
+world's best educational
+
+
+183
+00:05:57,936 --> 00:05:59,966
+institutions; including
+
+
+184
+00:06:00,186 --> 00:06:02,266
+developing iOS 11 apps with
+
+
+185
+00:06:02,266 --> 00:06:03,956
+Swift from Stanford's Paul
+
+
+186
+00:06:03,956 --> 00:06:04,376
+Hegarty.
+
+
+187
+00:06:05,086 --> 00:06:06,816
+Naturally, we're eager for the
+
+
+188
+00:06:06,816 --> 00:06:09,006
+new installment of this class
+
+
+189
+00:06:09,006 --> 00:06:10,186
+series later this year.
+
+
+190
+00:06:10,856 --> 00:06:12,446
+As part of Apple Podcast,
+
+
+191
+00:06:12,686 --> 00:06:14,836
+teachers can now leverage the
+
+
+192
+00:06:14,836 --> 00:06:17,016
+episode serial ordering support
+
+
+193
+00:06:17,016 --> 00:06:17,966
+in podcast app.
+
+
+194
+00:06:18,396 --> 00:06:20,306
+They can reach new, broader
+
+
+195
+00:06:20,306 --> 00:06:22,526
+audience of life-long learners
+
+
+196
+00:06:22,526 --> 00:06:23,316
+around the world.
+
+
+197
+00:06:23,996 --> 00:06:25,296
+And they can distribute their
+
+
+198
+00:06:25,296 --> 00:06:28,586
+content on tvOS for the first
+
+
+199
+00:06:29,156 --> 00:06:29,306
+time.
+
+
+200
+00:06:30,046 --> 00:06:32,296
+We're seeing some great use of
+
+
+201
+00:06:32,296 --> 00:06:34,256
+modern podcast tags, which we
+
+
+202
+00:06:34,256 --> 00:06:36,576
+introduced last year, right here
+
+
+203
+00:06:36,576 --> 00:06:38,336
+on stage at WWDC.
+
+
+204
+00:06:39,196 --> 00:06:41,306
+Many podcasts includes trailers
+
+
+205
+00:06:41,306 --> 00:06:42,586
+to thematically introduce the
+
+
+206
+00:06:42,586 --> 00:06:44,346
+feel and sound of their show.
+
+
+207
+00:06:44,866 --> 00:06:46,286
+This is the best way really to
+
+
+208
+00:06:46,286 --> 00:06:47,536
+launch a new podcast.
+
+
+209
+00:06:47,536 --> 00:06:49,676
+And ESPN for example, makes
+
+
+210
+00:06:49,676 --> 00:06:50,616
+great use of trailers.
+
+
+211
+00:06:50,886 --> 00:06:52,466
+And in addition is amongst the
+
+
+212
+00:06:52,466 --> 00:06:54,786
+chart-topping shows that uses
+
+
+213
+00:06:54,786 --> 00:06:56,576
+seasons and bonus content.
+
+
+214
+00:06:57,246 --> 00:06:58,786
+This allows Jody Avirgan and the
+
+
+215
+00:06:58,786 --> 00:07:00,756
+team to easily present the
+
+
+216
+00:07:00,756 --> 00:07:01,976
+thematically different
+
+
+217
+00:07:01,976 --> 00:07:03,776
+collections of episodes in each
+
+
+218
+00:07:03,776 --> 00:07:04,126
+season.
+
+
+219
+00:07:04,966 --> 00:07:06,956
+In addition to seasons and bonus
+
+
+220
+00:07:06,956 --> 00:07:09,386
+content, "30 for 30" feeds their
+
+
+221
+00:07:09,386 --> 00:07:11,756
+super fans with bonus episodes.
+
+
+222
+00:07:12,366 --> 00:07:13,596
+These complement the full season
+
+
+223
+00:07:13,596 --> 00:07:14,166
+episodes.
+
+
+224
+00:07:15,796 --> 00:07:17,556
+A best practice regarding bonus
+
+
+225
+00:07:17,556 --> 00:07:18,776
+content is to make sure that
+
+
+226
+00:07:18,776 --> 00:07:20,966
+your bonus episodes are tagged
+
+
+227
+00:07:20,966 --> 00:07:22,496
+appropriately to the full season
+
+
+228
+00:07:22,496 --> 00:07:23,096
+episodes.
+
+
+229
+00:07:23,416 --> 00:07:24,786
+This will ensure proper ordering
+
+
+230
+00:07:24,786 --> 00:07:26,796
+of the content in Apple Podcast.
+
+
+231
+00:07:27,546 --> 00:07:28,916
+And of course, episode number.
+
+
+232
+00:07:28,916 --> 00:07:31,026
+We're using this handy reference
+
+
+233
+00:07:31,026 --> 00:07:33,146
+for your audience inside podcast
+
+
+234
+00:07:33,146 --> 00:07:33,366
+app.
+
+
+235
+00:07:33,776 --> 00:07:35,366
+We're also making use of episode
+
+
+236
+00:07:35,366 --> 00:07:36,666
+numbers that you provide in the
+
+
+237
+00:07:36,666 --> 00:07:39,036
+RSS feed in Podcast Analytics.
+
+
+238
+00:07:40,516 --> 00:07:42,926
+An innovative crop of
+
+
+239
+00:07:42,926 --> 00:07:45,166
+venture-backed hosting startups
+
+
+240
+00:07:45,166 --> 00:07:46,036
+have started to grow.
+
+
+241
+00:07:46,496 --> 00:07:48,136
+Organizations such as Anchor,
+
+
+242
+00:07:48,926 --> 00:07:51,506
+with some great new iOS based
+
+
+243
+00:07:51,506 --> 00:07:53,366
+creation tools ART19, which is
+
+
+244
+00:07:53,366 --> 00:07:54,876
+an easy to use solution for your
+
+
+245
+00:07:54,876 --> 00:07:56,496
+enterprise podcast needs.
+
+
+246
+00:07:56,896 --> 00:07:58,616
+And Simplecast with brand new
+
+
+247
+00:07:58,616 --> 00:08:00,946
+migration tools and a 2.0
+
+
+248
+00:08:00,946 --> 00:08:01,966
+version they just launched.
+
+
+249
+00:08:02,526 --> 00:08:04,786
+These next generation mobile
+
+
+250
+00:08:04,786 --> 00:08:07,176
+optimized podcast creation tools
+
+
+251
+00:08:07,176 --> 00:08:08,776
+can help make your programming
+
+
+252
+00:08:08,776 --> 00:08:09,786
+available to the world.
+
+
+253
+00:08:10,406 --> 00:08:12,256
+And these folks join our lineup
+
+
+254
+00:08:12,256 --> 00:08:13,826
+of longstanding hosting partners
+
+
+255
+00:08:13,826 --> 00:08:15,246
+from around the world including
+
+
+256
+00:08:15,246 --> 00:08:17,876
+Lipson, Megaphone, Omni Studios
+
+
+257
+00:08:17,876 --> 00:08:19,026
+and Wushka from Australia,
+
+
+258
+00:08:19,026 --> 00:08:20,186
+Spreaker, and more.
+
+
+259
+00:08:20,786 --> 00:08:22,366
+Check out our resources now for
+
+
+260
+00:08:22,366 --> 00:08:24,096
+our full list of Apple Podcast
+
+
+261
+00:08:24,096 --> 00:08:28,616
+hosting partners, HomePod, which
+
+
+262
+00:08:28,616 --> 00:08:30,966
+arrives soon in Canada, France
+
+
+263
+00:08:30,966 --> 00:08:32,616
+and Germany is an awesome
+
+
+264
+00:08:32,616 --> 00:08:33,696
+podcast machine.
+
+
+265
+00:08:34,196 --> 00:08:35,816
+Siri has been optimized for
+
+
+266
+00:08:35,816 --> 00:08:36,905
+podcast playback.
+
+
+267
+00:08:36,976 --> 00:08:38,456
+So, you can just ask Siri to
+
+
+268
+00:08:38,456 --> 00:08:40,116
+subscribe to or play your
+
+
+269
+00:08:40,116 --> 00:08:40,796
+favorite show.
+
+
+270
+00:08:41,836 --> 00:08:44,035
+We also offer audio news briefs.
+
+
+271
+00:08:44,566 --> 00:08:46,566
+Just ask Siri to play me the
+
+
+272
+00:08:46,566 --> 00:08:47,006
+news.
+
+
+273
+00:08:48,216 --> 00:08:49,666
+We're proud to be distributing
+
+
+274
+00:08:49,666 --> 00:08:52,166
+headline news bulletins from
+
+
+275
+00:08:52,166 --> 00:08:53,446
+some of the best news
+
+
+276
+00:08:53,516 --> 00:08:54,796
+organizations in the world
+
+
+277
+00:08:55,246 --> 00:08:58,456
+including NPR, the BBC, ABC
+
+
+278
+00:08:58,456 --> 00:09:01,206
+Australia, ESPN, Bloomberg, and
+
+
+279
+00:09:01,206 --> 00:09:01,426
+more.
+
+
+280
+00:09:01,426 --> 00:09:03,246
+You can ask Siri for audio
+
+
+281
+00:09:03,246 --> 00:09:05,516
+briefs in general news, sports,
+
+
+282
+00:09:05,866 --> 00:09:07,466
+business, and even get an update
+
+
+283
+00:09:07,876 --> 00:09:09,176
+on the goings-on in music from
+
+
+284
+00:09:09,176 --> 00:09:10,646
+our own Apple music team.
+
+
+285
+00:09:12,656 --> 00:09:14,496
+We're thrilled to celebrate the
+
+
+286
+00:09:14,496 --> 00:09:16,416
+incredible milestone of 50
+
+
+287
+00:09:16,416 --> 00:09:18,196
+billion episode downloads and
+
+
+288
+00:09:18,196 --> 00:09:20,366
+streams on Apple Podcast, since
+
+
+289
+00:09:20,366 --> 00:09:21,336
+the launch of the service in
+
+
+290
+00:09:21,336 --> 00:09:22,176
+2005.
+
+
+291
+00:09:22,936 --> 00:09:24,826
+With over 10.5 billion episode
+
+
+292
+00:09:24,826 --> 00:09:26,456
+downloads and streaming plays in
+
+
+293
+00:09:26,456 --> 00:09:30,046
+2016, and more than 13.7 billion
+
+
+294
+00:09:30,046 --> 00:09:30,796
+last year.
+
+
+295
+00:09:30,796 --> 00:09:32,066
+The growth trajectory of the
+
+
+296
+00:09:32,126 --> 00:09:34,116
+platform is amazing.
+
+
+297
+00:09:34,686 --> 00:09:37,256
+We're also thrilled that the
+
+
+298
+00:09:37,256 --> 00:09:39,456
+shows that are driving all this
+
+
+299
+00:09:39,456 --> 00:09:41,156
+consumption are of such a high
+
+
+300
+00:09:41,156 --> 00:09:41,816
+quality.
+
+
+301
+00:09:42,346 --> 00:09:44,216
+And it's a pleasure for us to be
+
+
+302
+00:09:44,216 --> 00:09:45,626
+able to champion this content on
+
+
+303
+00:09:45,626 --> 00:09:47,206
+top of our platform.
+
+
+304
+00:09:47,766 --> 00:09:49,156
+We celebrate the podcasts that
+
+
+305
+00:09:49,156 --> 00:09:50,566
+contribute to this 50-billion
+
+
+306
+00:09:50,566 --> 00:09:51,896
+milestone in one show in
+
+
+307
+00:09:51,896 --> 00:09:53,946
+particular, "Stuff You Should
+
+
+308
+00:09:53,946 --> 00:09:55,716
+Know" from Atlanta's How Stuff
+
+
+309
+00:09:55,716 --> 00:09:56,456
+Works Network.
+
+
+310
+00:09:56,526 --> 00:09:58,866
+The first podcast, and Apple
+
+
+311
+00:09:58,866 --> 00:10:01,236
+Podcast to exceed 500 million
+
+
+312
+00:10:01,236 --> 00:10:01,976
+downloads and streams.
+
+
+313
+00:10:02,546 --> 00:10:04,446
+Wow. Congratulations to Chuck,
+
+
+314
+00:10:04,886 --> 00:10:06,046
+Josh, Jerry and the rest of the
+
+
+315
+00:10:06,046 --> 00:10:06,466
+team.
+
+
+316
+00:10:06,506 --> 00:10:07,056
+Well done.
+
+
+317
+00:10:07,056 --> 00:10:08,436
+We're looking forward to the
+
+
+318
+00:10:08,436 --> 00:10:10,216
+next half-billion downloads and
+
+
+319
+00:10:10,216 --> 00:10:10,666
+streams.
+
+
+320
+00:10:12,936 --> 00:10:14,826
+So, with that business update,
+
+
+321
+00:10:15,396 --> 00:10:16,966
+let me welcome Anne to the stage
+
+
+322
+00:10:16,966 --> 00:10:18,366
+to take us through our app.
+
+
+323
+00:10:19,516 --> 00:10:23,606
+[ Applause ]
+
+
+324
+00:10:24,106 --> 00:10:26,186
+>> Thanks, James.
+
+
+325
+00:10:26,836 --> 00:10:28,626
+Thanks, James, and hi.
+
+
+326
+00:10:28,626 --> 00:10:30,196
+I'm Anne, and I run Podcasts
+
+
+327
+00:10:30,196 --> 00:10:31,076
+Engineering at Apple.
+
+
+328
+00:10:31,696 --> 00:10:34,236
+Before we dive much deeper into
+
+
+329
+00:10:34,236 --> 00:10:35,536
+analytics, I want to highlight a
+
+
+330
+00:10:35,536 --> 00:10:37,066
+few of the latest updates to the
+
+
+331
+00:10:37,066 --> 00:10:38,906
+podcast app.
+
+
+332
+00:10:39,766 --> 00:10:41,236
+As you probably heard in
+
+
+333
+00:10:41,236 --> 00:10:42,516
+yesterday's keynote, we are
+
+
+334
+00:10:42,516 --> 00:10:43,976
+thrilled to be launching
+
+
+335
+00:10:43,976 --> 00:10:45,846
+podcasts for Apple Watch this
+
+
+336
+00:10:45,846 --> 00:10:46,166
+fall.
+
+
+337
+00:10:46,996 --> 00:10:48,966
+It was one of the most requested
+
+
+338
+00:10:48,966 --> 00:10:50,986
+features for Apple Watch and for
+
+
+339
+00:10:50,986 --> 00:10:51,396
+good reason.
+
+
+340
+00:10:52,066 --> 00:10:54,146
+Between HomePod and Apple Watch,
+
+
+341
+00:10:54,146 --> 00:10:55,806
+listening to podcasts has never
+
+
+342
+00:10:55,806 --> 00:10:58,166
+been easier or more hands-free.
+
+
+343
+00:10:59,496 --> 00:11:01,836
+We're also really excited to
+
+
+344
+00:11:01,836 --> 00:11:02,996
+share that we've enhanced our
+
+
+345
+00:11:02,996 --> 00:11:04,366
+support for chapters in the
+
+
+346
+00:11:04,366 --> 00:11:05,956
+podcast app.
+
+
+347
+00:11:05,956 --> 00:11:07,556
+In the upcoming iOS release,
+
+
+348
+00:11:07,556 --> 00:11:09,116
+we're extending full chapter
+
+
+349
+00:11:09,116 --> 00:11:10,806
+support to MP3s.
+
+
+350
+00:11:12,396 --> 00:11:13,486
+In addition to enabling
+
+
+351
+00:11:13,486 --> 00:11:15,046
+podcasters to segment their
+
+
+352
+00:11:15,106 --> 00:11:17,266
+episodes into shorter discrete
+
+
+353
+00:11:17,266 --> 00:11:19,086
+chapters, this functionality
+
+
+354
+00:11:19,086 --> 00:11:21,316
+also includes chapter art that
+
+
+355
+00:11:21,316 --> 00:11:22,816
+displays as the play head
+
+
+356
+00:11:22,816 --> 00:11:24,426
+advances across chapters.
+
+
+357
+00:11:24,636 --> 00:11:26,596
+So, podcasters can supplement
+
+
+358
+00:11:26,666 --> 00:11:28,496
+their audio with visual content.
+
+
+359
+00:11:29,036 --> 00:11:32,786
+In the upcoming iOS release,
+
+
+360
+00:11:32,786 --> 00:11:34,856
+we're also offering an improved
+
+
+361
+00:11:34,856 --> 00:11:35,986
+experience for podcast
+
+
+362
+00:11:35,986 --> 00:11:36,856
+notifications.
+
+
+363
+00:11:37,556 --> 00:11:38,996
+The new podcast notifications
+
+
+364
+00:11:38,996 --> 00:11:40,696
+are groups across shows and
+
+
+365
+00:11:40,696 --> 00:11:42,406
+episodes, into a single
+
+
+366
+00:11:42,406 --> 00:11:43,636
+expandable stack.
+
+
+367
+00:11:44,506 --> 00:11:45,916
+That reduces clutter on the
+
+
+368
+00:11:45,916 --> 00:11:46,386
+screen.
+
+
+369
+00:11:47,506 --> 00:11:49,756
+And we've also provided one-tap
+
+
+370
+00:11:49,756 --> 00:11:51,876
+access to notification settings
+
+
+371
+00:11:51,876 --> 00:11:53,236
+for all of your shows.
+
+
+372
+00:11:53,626 --> 00:11:55,116
+That means if you only want to
+
+
+373
+00:11:55,116 --> 00:11:56,536
+get notifications for your
+
+
+374
+00:11:56,536 --> 00:11:58,576
+favorite show, "99% Invisible,"
+
+
+375
+00:11:58,966 --> 00:12:00,616
+it's as simple as toggling the
+
+
+376
+00:12:00,616 --> 00:12:02,426
+switches on this single settings
+
+
+377
+00:12:02,426 --> 00:12:02,826
+page.
+
+
+378
+00:12:03,406 --> 00:12:07,676
+So, last year at WWDC, we
+
+
+379
+00:12:07,676 --> 00:12:09,196
+announced that Apple would be
+
+
+380
+00:12:09,196 --> 00:12:10,946
+launching Podcast Analytics for
+
+
+381
+00:12:10,946 --> 00:12:11,696
+the first time.
+
+
+382
+00:12:12,336 --> 00:12:13,856
+We were super excited to launch
+
+
+383
+00:12:13,856 --> 00:12:15,166
+at the end of 2017.
+
+
+384
+00:12:15,766 --> 00:12:17,116
+And Podcast Analytics is
+
+
+385
+00:12:17,116 --> 00:12:19,326
+available in beta right now,
+
+
+386
+00:12:19,326 --> 00:12:21,586
+today, to anyone with a podcast
+
+
+387
+00:12:21,586 --> 00:12:22,226
+in our catalog.
+
+
+388
+00:12:24,096 --> 00:12:26,136
+We know that this is a service
+
+
+389
+00:12:26,136 --> 00:12:28,376
+that was long desired and speaks
+
+
+390
+00:12:28,376 --> 00:12:29,626
+to a critical need in the
+
+
+391
+00:12:29,626 --> 00:12:32,156
+industry, as evidenced by work
+
+
+392
+00:12:32,156 --> 00:12:33,756
+like the remote audio data speck
+
+
+393
+00:12:33,996 --> 00:12:35,586
+being spearheaded by NPR.
+
+
+394
+00:12:36,586 --> 00:12:38,556
+So, it's important to us that we
+
+
+395
+00:12:38,556 --> 00:12:40,326
+provide this anonymous data back
+
+
+396
+00:12:40,436 --> 00:12:42,076
+to publishers to help them
+
+
+397
+00:12:42,456 --> 00:12:44,266
+better understand how their
+
+
+398
+00:12:44,266 --> 00:12:45,946
+audiences are consuming their
+
+
+399
+00:12:45,946 --> 00:12:46,276
+audio.
+
+
+400
+00:12:46,276 --> 00:12:49,156
+And all of the data and
+
+
+401
+00:12:49,156 --> 00:12:51,576
+analytics is based on the use of
+
+
+402
+00:12:51,576 --> 00:12:53,496
+the updated Apple Podcast App
+
+
+403
+00:12:53,836 --> 00:12:57,076
+from iOS 11 and iTunes 12.7.
+
+
+404
+00:12:57,676 --> 00:12:59,206
+We're collecting data only from
+
+
+405
+00:12:59,206 --> 00:13:00,226
+those operating systems,
+
+
+406
+00:13:00,226 --> 00:13:00,736
+forward.
+
+
+407
+00:13:01,086 --> 00:13:02,656
+And the analytics dashboard
+
+
+408
+00:13:02,656 --> 00:13:04,296
+includes listening data from
+
+
+409
+00:13:04,296 --> 00:13:06,956
+HomePod, AppleTV and will
+
+
+410
+00:13:06,956 --> 00:13:08,466
+include Apple Watch listening
+
+
+411
+00:13:08,466 --> 00:13:10,616
+data starting in watchOS 5.
+
+
+412
+00:13:11,276 --> 00:13:15,476
+As you know, privacy is really
+
+
+413
+00:13:15,476 --> 00:13:17,346
+important to Apple and we are
+
+
+414
+00:13:17,346 --> 00:13:19,156
+only showing aggregate data of
+
+
+415
+00:13:19,156 --> 00:13:20,736
+those users who have agreed to
+
+
+416
+00:13:20,736 --> 00:13:22,996
+use the Podcast App.
+
+
+417
+00:13:22,996 --> 00:13:24,226
+It is anonymous.
+
+
+418
+00:13:24,646 --> 00:13:26,296
+Not personally identifiable.
+
+
+419
+00:13:26,776 --> 00:13:28,956
+Not tied to your Apple ID.
+
+
+420
+00:13:28,956 --> 00:13:30,636
+And we only reflect data points
+
+
+421
+00:13:30,636 --> 00:13:31,636
+in aggregate that we've
+
+
+422
+00:13:31,636 --> 00:13:33,286
+collected from at least five
+
+
+423
+00:13:33,346 --> 00:13:34,166
+unique devices.
+
+
+424
+00:13:34,816 --> 00:13:37,626
+And it couldn't be easier to get
+
+
+425
+00:13:37,626 --> 00:13:37,986
+started.
+
+
+426
+00:13:38,156 --> 00:13:39,466
+You don't need to write any
+
+
+427
+00:13:39,466 --> 00:13:39,936
+code.
+
+
+428
+00:13:39,936 --> 00:13:41,486
+You don't need to use an SDK and
+
+
+429
+00:13:41,486 --> 00:13:42,416
+it's totally free.
+
+
+430
+00:13:42,416 --> 00:13:44,636
+If you have a podcast, all you
+
+
+431
+00:13:44,636 --> 00:13:46,796
+have to do is submit your feed
+
+
+432
+00:13:47,076 --> 00:13:48,526
+to Podcast Connect after you
+
+
+433
+00:13:48,526 --> 00:13:49,176
+signed in.
+
+
+434
+00:13:49,516 --> 00:13:51,206
+Get it approved, get some
+
+
+435
+00:13:51,206 --> 00:13:53,116
+listeners, then check your
+
+
+436
+00:13:53,116 --> 00:13:54,446
+performance through the Podcast
+
+
+437
+00:13:54,446 --> 00:13:55,716
+Analytics Dashboard.
+
+
+438
+00:13:57,656 --> 00:14:00,276
+Analytics reports data from
+
+
+439
+00:14:00,276 --> 00:14:02,366
+unique devices that engage with
+
+
+440
+00:14:02,366 --> 00:14:04,926
+the Podcast App.
+
+
+441
+00:14:04,926 --> 00:14:06,236
+As my colleague Alec is about to
+
+
+442
+00:14:06,236 --> 00:14:07,596
+show us from the Analytics
+
+
+443
+00:14:07,596 --> 00:14:09,706
+Dashboard, publishes can access
+
+
+444
+00:14:09,706 --> 00:14:11,886
+an overview that includes tables
+
+
+445
+00:14:11,886 --> 00:14:14,046
+and charts with data like unique
+
+
+446
+00:14:14,046 --> 00:14:15,556
+device counts for a selected
+
+
+447
+00:14:15,556 --> 00:14:16,496
+period of time.
+
+
+448
+00:14:17,046 --> 00:14:18,536
+Total time listened.
+
+
+449
+00:14:19,236 --> 00:14:20,586
+Time per device.
+
+
+450
+00:14:21,246 --> 00:14:22,326
+Average consumption.
+
+
+451
+00:14:22,876 --> 00:14:24,426
+Top countries, and more.
+
+
+452
+00:14:26,476 --> 00:14:28,816
+So, some of you may be familiar
+
+
+453
+00:14:28,816 --> 00:14:30,306
+with our podcast, "The Very
+
+
+454
+00:14:30,306 --> 00:14:31,446
+Hungry Tourists."
+
+
+455
+00:14:32,036 --> 00:14:34,336
+They're back for season two and
+
+
+456
+00:14:34,336 --> 00:14:35,736
+they even have some new cover
+
+
+457
+00:14:36,426 --> 00:14:37,196
+art.
+
+
+458
+00:14:37,196 --> 00:14:38,296
+Alec is going to take you on a
+
+
+459
+00:14:38,296 --> 00:14:39,656
+deeper dive of how to get the
+
+
+460
+00:14:39,656 --> 00:14:42,176
+most out of Analytics.
+
+
+461
+00:14:42,276 --> 00:14:43,666
+We're excited to continue
+
+
+462
+00:14:43,666 --> 00:14:45,196
+providing key listening metrics
+
+
+463
+00:14:45,196 --> 00:14:46,636
+for this industry and we are
+
+
+464
+00:14:46,636 --> 00:14:47,846
+listening to your feedback and
+
+
+465
+00:14:48,226 --> 00:14:49,626
+continuing to improve the
+
+
+466
+00:14:49,626 --> 00:14:50,096
+service.
+
+
+467
+00:14:50,096 --> 00:14:51,176
+So, thank you.
+
+
+468
+00:14:51,636 --> 00:14:53,506
+And with, that I'm going to hand
+
+
+469
+00:14:53,506 --> 00:14:55,276
+it over to Alec to take us on a
+
+
+470
+00:14:55,276 --> 00:14:56,866
+tour of Podcast Analytics.
+
+
+471
+00:14:57,516 --> 00:15:03,736
+[ Applause ]
+
+
+472
+00:15:04,236 --> 00:15:04,866
+>> Thank you, Anne.
+
+
+473
+00:15:05,806 --> 00:15:08,216
+So, podcasters, every day you're
+
+
+474
+00:15:08,216 --> 00:15:10,846
+hard at work making great shows
+
+
+475
+00:15:10,846 --> 00:15:12,416
+and episodes for people to enjoy
+
+
+476
+00:15:12,416 --> 00:15:13,256
+all over the world.
+
+
+477
+00:15:14,296 --> 00:15:15,326
+But how much do you know about
+
+
+478
+00:15:15,326 --> 00:15:16,026
+your audience?
+
+
+479
+00:15:16,596 --> 00:15:19,276
+Do you know how many listeners
+
+
+480
+00:15:19,276 --> 00:15:20,986
+you have, or how much they
+
+
+481
+00:15:20,986 --> 00:15:21,386
+listen?
+
+
+482
+00:15:22,456 --> 00:15:23,356
+Do you know where they are
+
+
+483
+00:15:23,356 --> 00:15:24,236
+around the world?
+
+
+484
+00:15:25,196 --> 00:15:25,956
+What are their favorite
+
+
+485
+00:15:25,956 --> 00:15:26,516
+episodes?
+
+
+486
+00:15:27,006 --> 00:15:28,966
+With Podcast Analytics, Apple
+
+
+487
+00:15:28,966 --> 00:15:30,936
+offers you the transparency into
+
+
+488
+00:15:30,936 --> 00:15:32,096
+how you show is heard.
+
+
+489
+00:15:32,836 --> 00:15:34,026
+So, you can better understand
+
+
+490
+00:15:34,026 --> 00:15:35,496
+your listeners and create the
+
+
+491
+00:15:35,496 --> 00:15:36,766
+best show for you audience.
+
+
+492
+00:15:37,886 --> 00:15:39,076
+My name is Alec Reitter and I'm
+
+
+493
+00:15:39,076 --> 00:15:40,596
+going to do a walkthrough and
+
+
+494
+00:15:40,596 --> 00:15:42,306
+demo of Podcast Analytics.
+
+
+495
+00:15:42,956 --> 00:15:44,616
+So, let's get started by heading
+
+
+496
+00:15:44,616 --> 00:15:45,606
+to the login page.
+
+
+497
+00:15:46,146 --> 00:15:48,946
+When you see this bright purple
+
+
+498
+00:15:48,946 --> 00:15:50,316
+page, you know you've made it to
+
+
+499
+00:15:50,316 --> 00:15:51,056
+the right place.
+
+
+500
+00:15:51,576 --> 00:15:53,156
+Here, we're going to log in with
+
+
+501
+00:15:53,156 --> 00:15:55,006
+the Apple ID that we used to
+
+
+502
+00:15:55,006 --> 00:15:56,926
+originally submit the podcast
+
+
+503
+00:15:56,926 --> 00:15:59,056
+feed to the Apple Podcast
+
+
+504
+00:15:59,056 --> 00:15:59,496
+Catalog.
+
+
+505
+00:15:59,796 --> 00:16:02,746
+Now, if you have any trouble
+
+
+506
+00:16:02,746 --> 00:16:04,866
+such as, you forget your
+
+
+507
+00:16:04,926 --> 00:16:06,696
+password for your Apple ID, or
+
+
+508
+00:16:06,696 --> 00:16:07,776
+you don't know which Apple ID to
+
+
+509
+00:16:07,856 --> 00:16:10,276
+use, or if, after you've logged
+
+
+510
+00:16:10,276 --> 00:16:12,696
+in you don't see all the shows
+
+
+511
+00:16:12,696 --> 00:16:15,716
+you expect to see, go to the top
+
+
+512
+00:16:15,716 --> 00:16:17,086
+right corner of this page and
+
+
+513
+00:16:17,086 --> 00:16:18,196
+click on that question mark
+
+
+514
+00:16:18,196 --> 00:16:18,616
+icon.
+
+
+515
+00:16:18,756 --> 00:16:20,546
+That will take you to resources
+
+
+516
+00:16:20,546 --> 00:16:20,946
+and help.
+
+
+517
+00:16:21,446 --> 00:16:22,796
+And there you can find a contact
+
+
+518
+00:16:22,796 --> 00:16:24,206
+us link, where people can give
+
+
+519
+00:16:24,206 --> 00:16:25,256
+you the assistance you need.
+
+
+520
+00:16:25,256 --> 00:16:27,896
+In this example, we're going to
+
+
+521
+00:16:27,896 --> 00:16:29,846
+use John Appleseed's login
+
+
+522
+00:16:29,846 --> 00:16:30,486
+credentials.
+
+
+523
+00:16:30,686 --> 00:16:32,636
+So, let's log in now and see
+
+
+524
+00:16:32,636 --> 00:16:34,616
+what he sees when he enters
+
+
+525
+00:16:34,656 --> 00:16:35,506
+Podcast Analytics.
+
+
+526
+00:16:40,196 --> 00:16:43,486
+So, this is the shows page.
+
+
+527
+00:16:43,526 --> 00:16:45,466
+Here we see five shows for
+
+
+528
+00:16:45,466 --> 00:16:46,146
+John's account.
+
+
+529
+00:16:47,286 --> 00:16:50,796
+In this table, there are three
+
+
+530
+00:16:50,796 --> 00:16:51,436
+metrics.
+
+
+531
+00:16:51,616 --> 00:16:52,526
+And we're going to take a look
+
+
+532
+00:16:52,526 --> 00:16:53,366
+at those in a minute.
+
+
+533
+00:16:54,206 --> 00:16:55,766
+And all of the data in this
+
+
+534
+00:16:55,766 --> 00:16:57,346
+table is driven by the date
+
+
+535
+00:16:57,346 --> 00:16:58,556
+picker, which is in the top
+
+
+536
+00:16:58,556 --> 00:16:59,106
+right corner.
+
+
+537
+00:16:59,466 --> 00:17:00,686
+Right now, it's set to the last
+
+
+538
+00:17:00,686 --> 00:17:02,656
+60 days and that is the default.
+
+
+539
+00:17:03,466 --> 00:17:05,126
+So, let's take a look at the top
+
+
+540
+00:17:05,126 --> 00:17:06,925
+row for "The Very Hungry
+
+
+541
+00:17:06,925 --> 00:17:07,566
+Tourists."
+
+
+542
+00:17:08,836 --> 00:17:10,606
+Here we can see the number of
+
+
+543
+00:17:10,606 --> 00:17:12,356
+unique devices for the last 60
+
+
+544
+00:17:12,356 --> 00:17:12,646
+days.
+
+
+545
+00:17:13,215 --> 00:17:14,986
+This answers the question, how
+
+
+546
+00:17:14,986 --> 00:17:16,165
+many listeners do I have?
+
+
+547
+00:17:16,685 --> 00:17:19,556
+Here we see, 256,000 unique
+
+
+548
+00:17:19,556 --> 00:17:20,195
+devices.
+
+
+549
+00:17:21,665 --> 00:17:23,016
+Next to that, we can answer the
+
+
+550
+00:17:23,016 --> 00:17:24,705
+question how much do they
+
+
+551
+00:17:24,705 --> 00:17:25,126
+listen.
+
+
+552
+00:17:25,756 --> 00:17:26,996
+In this case, the total time
+
+
+553
+00:17:26,996 --> 00:17:31,636
+listened is 327,000 total hours.
+
+
+554
+00:17:32,876 --> 00:17:34,626
+Now, if we do a little math we
+
+
+555
+00:17:34,626 --> 00:17:36,016
+can find the average which is
+
+
+556
+00:17:36,016 --> 00:17:38,256
+the time per device of 1 hour
+
+
+557
+00:17:38,256 --> 00:17:39,396
+and 17 minutes.
+
+
+558
+00:17:39,686 --> 00:17:41,256
+So, this is a very popular show.
+
+
+559
+00:17:41,486 --> 00:17:41,976
+It's doing really well.
+
+
+560
+00:17:46,366 --> 00:17:48,466
+So, next we're going to switch
+
+
+561
+00:17:48,466 --> 00:17:50,656
+tabs from the shows tab to the
+
+
+562
+00:17:50,656 --> 00:17:52,976
+episodes tab.
+
+
+563
+00:17:53,176 --> 00:17:54,996
+Here we can see a cross-section
+
+
+564
+00:17:55,566 --> 00:17:58,176
+of episodes across all of the
+
+
+565
+00:17:58,176 --> 00:17:59,226
+shows in John's account.
+
+
+566
+00:18:00,156 --> 00:18:01,556
+Here we see a few of the most
+
+
+567
+00:18:01,556 --> 00:18:02,976
+recently released episodes.
+
+
+568
+00:18:05,846 --> 00:18:07,096
+Now, this data table has a lot
+
+
+569
+00:18:07,096 --> 00:18:08,126
+more information in it.
+
+
+570
+00:18:08,126 --> 00:18:10,196
+And let's take a look at the top
+
+
+571
+00:18:10,196 --> 00:18:10,606
+row.
+
+
+572
+00:18:10,856 --> 00:18:13,906
+This is the most recent episode
+
+
+573
+00:18:13,906 --> 00:18:15,136
+from "The Very Hungry Tourists"
+
+
+574
+00:18:16,096 --> 00:18:18,056
+starting on the righthand side
+
+
+575
+00:18:18,056 --> 00:18:20,726
+we can see the name of the
+
+
+576
+00:18:21,176 --> 00:18:23,166
+episode, then the name of the
+
+
+577
+00:18:23,166 --> 00:18:23,606
+show.
+
+
+578
+00:18:24,336 --> 00:18:26,036
+And now, the third column is the
+
+
+579
+00:18:26,036 --> 00:18:26,776
+episode column.
+
+
+580
+00:18:27,356 --> 00:18:28,426
+If you're making use of the new
+
+
+581
+00:18:28,426 --> 00:18:30,546
+tags, like season, episode and
+
+
+582
+00:18:30,546 --> 00:18:32,316
+episode type, they'll show up
+
+
+583
+00:18:32,316 --> 00:18:32,606
+here.
+
+
+584
+00:18:33,776 --> 00:18:34,986
+Following that, we have the
+
+
+585
+00:18:34,986 --> 00:18:36,386
+release date, and then the
+
+
+586
+00:18:36,386 --> 00:18:37,056
+duration.
+
+
+587
+00:18:37,796 --> 00:18:38,756
+So, in this case, it's a
+
+
+588
+00:18:38,756 --> 00:18:40,206
+35-minute long episode.
+
+
+589
+00:18:40,926 --> 00:18:42,776
+If, when you log in, you don't
+
+
+590
+00:18:42,776 --> 00:18:43,886
+see the right number in the
+
+
+591
+00:18:43,886 --> 00:18:46,826
+duration column, it's because of
+
+
+592
+00:18:46,826 --> 00:18:47,866
+what you have in your feed.
+
+
+593
+00:18:48,216 --> 00:18:49,366
+We pull this number straight
+
+
+594
+00:18:49,366 --> 00:18:49,966
+from your feed.
+
+
+595
+00:18:50,116 --> 00:18:51,596
+So, make sure it's accurate.
+
+
+596
+00:18:52,866 --> 00:18:54,766
+Following the duration column,
+
+
+597
+00:18:54,766 --> 00:18:56,026
+we see three columns that we've
+
+
+598
+00:18:56,026 --> 00:18:57,856
+seen before, except this time,
+
+
+599
+00:18:58,306 --> 00:18:59,706
+for this episode specifically.
+
+
+600
+00:18:59,996 --> 00:19:01,736
+So, we have devices, total time
+
+
+601
+00:19:01,736 --> 00:19:03,296
+listened, and time per device.
+
+
+602
+00:19:04,696 --> 00:19:06,646
+And for the first time, we see
+
+
+603
+00:19:06,646 --> 00:19:07,736
+average consumption.
+
+
+604
+00:19:08,016 --> 00:19:09,356
+This is the last metric in the
+
+
+605
+00:19:09,356 --> 00:19:10,306
+far-right column.
+
+
+606
+00:19:11,056 --> 00:19:13,046
+Average consumption is really
+
+
+607
+00:19:13,046 --> 00:19:14,426
+great because it's really just
+
+
+608
+00:19:14,426 --> 00:19:15,786
+another way of looking at time
+
+
+609
+00:19:15,786 --> 00:19:16,556
+per device.
+
+
+610
+00:19:17,206 --> 00:19:19,006
+So, in this case, it's 28
+
+
+611
+00:19:19,006 --> 00:19:21,056
+minutes for this 35-minute long
+
+
+612
+00:19:21,056 --> 00:19:21,576
+episode.
+
+
+613
+00:19:22,346 --> 00:19:23,596
+That is 81%.
+
+
+614
+00:19:24,016 --> 00:19:25,016
+What's nice about average
+
+
+615
+00:19:25,016 --> 00:19:26,736
+consumption is it allows us to
+
+
+616
+00:19:26,736 --> 00:19:28,516
+compare episodes of differing
+
+
+617
+00:19:28,516 --> 00:19:30,826
+durations against each other, to
+
+
+618
+00:19:30,826 --> 00:19:32,186
+really get a sense of how
+
+
+619
+00:19:32,186 --> 00:19:33,646
+healthy each episode is doing.
+
+
+620
+00:19:34,466 --> 00:19:38,776
+Now, from here, let's click
+
+
+621
+00:19:38,776 --> 00:19:40,366
+through on the show title and
+
+
+622
+00:19:40,366 --> 00:19:42,086
+look at the show overview for
+
+
+623
+00:19:42,086 --> 00:19:43,226
+"The Very Hungry Tourists."
+
+
+624
+00:19:45,756 --> 00:19:47,576
+So, here's the show overview.
+
+
+625
+00:19:48,186 --> 00:19:50,166
+There's a lot going on here.
+
+
+626
+00:19:50,166 --> 00:19:51,266
+Let's start at the top.
+
+
+627
+00:19:52,346 --> 00:19:54,366
+Across the top, we have three
+
+
+628
+00:19:54,366 --> 00:19:55,336
+headline numbers.
+
+
+629
+00:19:55,466 --> 00:19:56,496
+These are the same numbers that
+
+
+630
+00:19:56,496 --> 00:19:57,976
+we saw before in the shows
+
+
+631
+00:19:57,976 --> 00:19:58,316
+table.
+
+
+632
+00:19:59,216 --> 00:20:00,666
+But now we have a mini time
+
+
+633
+00:20:00,666 --> 00:20:02,296
+series underneath these numbers
+
+
+634
+00:20:02,426 --> 00:20:04,596
+to give you a sense of how
+
+
+635
+00:20:04,596 --> 00:20:05,356
+things are doing.
+
+
+636
+00:20:06,996 --> 00:20:08,516
+Maybe you can see, just looking
+
+
+637
+00:20:08,516 --> 00:20:10,816
+at that little line if your show
+
+
+638
+00:20:10,816 --> 00:20:13,496
+is getting more or fewer
+
+
+639
+00:20:13,836 --> 00:20:14,936
+listeners over time.
+
+
+640
+00:20:16,416 --> 00:20:18,506
+Now, let's look beneath this row
+
+
+641
+00:20:19,536 --> 00:20:21,486
+and take a look at the chart on
+
+
+642
+00:20:21,486 --> 00:20:22,246
+the left here.
+
+
+643
+00:20:22,706 --> 00:20:24,006
+This is the doughnut chart of
+
+
+644
+00:20:24,006 --> 00:20:24,946
+total time listened.
+
+
+645
+00:20:27,736 --> 00:20:29,566
+So, for all of the time spent
+
+
+646
+00:20:29,566 --> 00:20:31,606
+listening to your show, were
+
+
+647
+00:20:32,456 --> 00:20:34,686
+those devices subscribed or not
+
+
+648
+00:20:34,686 --> 00:20:35,256
+subscribed?
+
+
+649
+00:20:35,736 --> 00:20:38,176
+Here, we can see that 83% of
+
+
+650
+00:20:38,176 --> 00:20:40,436
+that 328,000 total hours of
+
+
+651
+00:20:40,436 --> 00:20:41,616
+listening was done by a
+
+
+652
+00:20:41,616 --> 00:20:44,306
+subscribed device, versus 17%
+
+
+653
+00:20:44,306 --> 00:20:44,976
+not subscribed.
+
+
+654
+00:20:45,366 --> 00:20:46,906
+So, these are pretty good
+
+
+655
+00:20:46,906 --> 00:20:47,376
+numbers.
+
+
+656
+00:20:48,186 --> 00:20:49,776
+But why might these numbers be
+
+
+657
+00:20:49,776 --> 00:20:50,776
+different when you take a look
+
+
+658
+00:20:50,776 --> 00:20:51,726
+at your data?
+
+
+659
+00:20:52,556 --> 00:20:55,126
+Well, if you have a very small
+
+
+660
+00:20:55,126 --> 00:20:56,806
+podcast, one with a very
+
+
+661
+00:20:56,946 --> 00:20:58,156
+dedicated following.
+
+
+662
+00:20:59,016 --> 00:21:00,766
+You might not have too many new
+
+
+663
+00:21:00,766 --> 00:21:03,056
+listeners, but your subscribed
+
+
+664
+00:21:03,056 --> 00:21:05,086
+count might be above 90 even
+
+
+665
+00:21:05,086 --> 00:21:05,966
+95%.
+
+
+666
+00:21:07,016 --> 00:21:09,206
+Conversely, if you're doing a
+
+
+667
+00:21:09,206 --> 00:21:10,696
+lot of marketing or promotion,
+
+
+668
+00:21:11,046 --> 00:21:13,706
+or your show is growing rapidly
+
+
+669
+00:21:14,876 --> 00:21:16,106
+you're not subscribed count
+
+
+670
+00:21:16,486 --> 00:21:18,236
+might be fairly high.
+
+
+671
+00:21:19,996 --> 00:21:21,406
+Now, when somebody first starts
+
+
+672
+00:21:21,406 --> 00:21:22,516
+to listen to your show,
+
+
+673
+00:21:22,786 --> 00:21:23,746
+obviously they're not going to
+
+
+674
+00:21:23,746 --> 00:21:25,316
+be subscribed most of the time.
+
+
+675
+00:21:25,316 --> 00:21:26,746
+But once they hear what you
+
+
+676
+00:21:26,746 --> 00:21:28,126
+have, and they hit that
+
+
+677
+00:21:28,126 --> 00:21:30,066
+subscribe button, that's when
+
+
+678
+00:21:30,206 --> 00:21:36,226
+they end up in the other bucket.
+
+
+679
+00:21:36,226 --> 00:21:37,226
+Oh. Now, let's take a look at
+
+
+680
+00:21:37,226 --> 00:21:38,416
+the chart to the right.
+
+
+681
+00:21:38,416 --> 00:21:39,636
+This is the top countries by
+
+
+682
+00:21:39,636 --> 00:21:40,126
+device.
+
+
+683
+00:21:40,266 --> 00:21:41,446
+Here we can see the top five
+
+
+684
+00:21:41,446 --> 00:21:42,446
+countries for the show.
+
+
+685
+00:21:43,246 --> 00:21:44,636
+As we can see, the United States
+
+
+686
+00:21:44,796 --> 00:21:46,136
+comprises the majority of the
+
+
+687
+00:21:46,136 --> 00:21:47,996
+listening at 78%.
+
+
+688
+00:21:48,786 --> 00:21:50,596
+But what's neat about this is
+
+
+689
+00:21:50,596 --> 00:21:52,306
+that if we look at the fifth
+
+
+690
+00:21:52,306 --> 00:21:53,696
+spot, we see Brazil.
+
+
+691
+00:21:53,696 --> 00:21:55,736
+Now, what's neat about this is
+
+
+692
+00:21:55,736 --> 00:21:57,176
+that Brazil wasn't on this top
+
+
+693
+00:21:57,176 --> 00:21:58,126
+five before.
+
+
+694
+00:21:58,886 --> 00:22:01,396
+But, as Anne said earlier, this
+
+
+695
+00:22:01,396 --> 00:22:02,866
+is season two of "The Very
+
+
+696
+00:22:02,866 --> 00:22:04,156
+Hungry Tourists" and on the
+
+
+697
+00:22:04,156 --> 00:22:05,676
+first episode of this season,
+
+
+698
+00:22:05,876 --> 00:22:06,636
+they actually went down to
+
+
+699
+00:22:06,636 --> 00:22:07,236
+Brazil.
+
+
+700
+00:22:07,776 --> 00:22:08,946
+They did some marketing and
+
+
+701
+00:22:08,946 --> 00:22:10,756
+promotion, and it's starting to
+
+
+702
+00:22:10,756 --> 00:22:10,976
+pay off.
+
+
+703
+00:22:13,516 --> 00:22:15,526
+So, next, let's scroll down to
+
+
+704
+00:22:15,526 --> 00:22:16,556
+the bottom of the page.
+
+
+705
+00:22:17,306 --> 00:22:19,396
+And here we can see the 10 most
+
+
+706
+00:22:19,396 --> 00:22:21,076
+recently released episodes for
+
+
+707
+00:22:21,076 --> 00:22:21,686
+the show.
+
+
+708
+00:22:22,266 --> 00:22:24,266
+This is the same sort of data
+
+
+709
+00:22:24,266 --> 00:22:25,466
+table that we saw before for
+
+
+710
+00:22:25,466 --> 00:22:27,246
+episodes, but this time it's for
+
+
+711
+00:22:27,396 --> 00:22:28,156
+a single show.
+
+
+712
+00:22:28,526 --> 00:22:29,946
+What's nice about this is we can
+
+
+713
+00:22:29,946 --> 00:22:31,816
+compare apples to apples and
+
+
+714
+00:22:31,816 --> 00:22:33,156
+really see on an
+
+
+715
+00:22:33,246 --> 00:22:35,356
+episode-by-episode basis how
+
+
+716
+00:22:35,356 --> 00:22:37,896
+things are turning out.
+
+
+717
+00:22:38,186 --> 00:22:39,936
+Let's go back up to the top, and
+
+
+718
+00:22:40,966 --> 00:22:42,176
+we're going to switch from the
+
+
+719
+00:22:43,516 --> 00:22:45,876
+show overview tab to the trends
+
+
+720
+00:22:45,876 --> 00:22:46,176
+tab.
+
+
+721
+00:22:47,056 --> 00:22:48,896
+So, here we are in the trends
+
+
+722
+00:22:48,896 --> 00:22:49,166
+tab.
+
+
+723
+00:22:50,506 --> 00:22:52,456
+This is a time series chart,
+
+
+724
+00:22:52,556 --> 00:22:55,006
+where we can see day by day how
+
+
+725
+00:22:55,006 --> 00:22:56,246
+many people are turning into the
+
+
+726
+00:22:56,246 --> 00:22:56,706
+show.
+
+
+727
+00:22:56,846 --> 00:22:58,916
+And again, by default, we're
+
+
+728
+00:22:58,916 --> 00:23:00,736
+looking at the last 60 days of
+
+
+729
+00:23:00,736 --> 00:23:01,046
+data.
+
+
+730
+00:23:01,816 --> 00:23:03,846
+In the top left corner, we see
+
+
+731
+00:23:03,846 --> 00:23:05,456
+that headline number again of
+
+
+732
+00:23:05,496 --> 00:23:07,796
+256,000 unique devices.
+
+
+733
+00:23:08,666 --> 00:23:10,116
+And down below the time series
+
+
+734
+00:23:10,116 --> 00:23:12,536
+chart, we see a table with
+
+
+735
+00:23:12,536 --> 00:23:13,516
+episode titles.
+
+
+736
+00:23:13,626 --> 00:23:15,046
+We can choose up to five
+
+
+737
+00:23:15,216 --> 00:23:16,636
+separate episodes to compare
+
+
+738
+00:23:16,636 --> 00:23:18,006
+against one another in the chart
+
+
+739
+00:23:18,006 --> 00:23:18,316
+above.
+
+
+740
+00:23:21,136 --> 00:23:23,686
+So, let's first now, talk about
+
+
+741
+00:23:23,816 --> 00:23:26,156
+all of the different dropdowns
+
+
+742
+00:23:26,426 --> 00:23:28,846
+that control the chart and what
+
+
+743
+00:23:28,846 --> 00:23:29,656
+we see in it.
+
+
+744
+00:23:30,456 --> 00:23:32,296
+First up, we have a dropdown,
+
+
+745
+00:23:32,436 --> 00:23:33,876
+this is the metric that we're
+
+
+746
+00:23:33,876 --> 00:23:34,576
+going to chart.
+
+
+747
+00:23:34,906 --> 00:23:36,086
+By default we start off with
+
+
+748
+00:23:36,086 --> 00:23:38,156
+unique devices, or you can also
+
+
+749
+00:23:38,156 --> 00:23:40,246
+choose to have it render total
+
+
+750
+00:23:40,246 --> 00:23:40,836
+time listened.
+
+
+751
+00:23:41,506 --> 00:23:44,406
+To the right of that, we have
+
+
+752
+00:23:44,406 --> 00:23:46,096
+another dropdown, this is what I
+
+
+753
+00:23:46,096 --> 00:23:47,316
+call the primary filter.
+
+
+754
+00:23:48,546 --> 00:23:49,716
+By default, here we're looking
+
+
+755
+00:23:49,716 --> 00:23:51,896
+at episode as the primary
+
+
+756
+00:23:51,896 --> 00:23:52,316
+filter.
+
+
+757
+00:23:52,516 --> 00:23:53,736
+But you might want to choose
+
+
+758
+00:23:53,866 --> 00:23:55,546
+country or subscribed device.
+
+
+759
+00:23:55,916 --> 00:23:57,236
+Now, whatever you choose for
+
+
+760
+00:23:57,236 --> 00:23:58,806
+your primary filter that's going
+
+
+761
+00:23:58,806 --> 00:24:00,286
+to dictate the table beneath the
+
+
+762
+00:24:00,286 --> 00:24:00,636
+chart.
+
+
+763
+00:24:01,486 --> 00:24:02,936
+So, whatever is selected allows
+
+
+764
+00:24:02,936 --> 00:24:04,716
+you to choose multiple entries
+
+
+765
+00:24:04,716 --> 00:24:05,936
+to compare against one another.
+
+
+766
+00:24:06,546 --> 00:24:08,056
+For example, we could choose
+
+
+767
+00:24:08,216 --> 00:24:10,496
+country and we'll have countries
+
+
+768
+00:24:10,496 --> 00:24:11,456
+in that table below.
+
+
+769
+00:24:12,246 --> 00:24:13,566
+Whatever filters are not
+
+
+770
+00:24:13,566 --> 00:24:15,726
+selected from this menu, they
+
+
+771
+00:24:15,726 --> 00:24:17,486
+move over to the righthand side
+
+
+772
+00:24:17,486 --> 00:24:18,386
+of the page in their own
+
+
+773
+00:24:18,386 --> 00:24:19,076
+dropdowns.
+
+
+774
+00:24:20,266 --> 00:24:22,856
+For example, countries or
+
+
+775
+00:24:23,316 --> 00:24:24,256
+subscription state.
+
+
+776
+00:24:24,936 --> 00:24:26,226
+For each of these, you can
+
+
+777
+00:24:26,226 --> 00:24:28,446
+choose up to one filter.
+
+
+778
+00:24:29,706 --> 00:24:31,936
+Now with that, that's enough
+
+
+779
+00:24:31,936 --> 00:24:33,726
+talking through slides.
+
+
+780
+00:24:33,726 --> 00:24:35,426
+Let's look at a demo and I will
+
+
+781
+00:24:35,426 --> 00:24:38,966
+take you back to that page, but
+
+
+782
+00:24:39,606 --> 00:24:41,056
+in a hands-on fashion.
+
+
+783
+00:24:42,426 --> 00:24:43,926
+So, here we are.
+
+
+784
+00:24:44,236 --> 00:24:45,216
+We're on that same view that we
+
+
+785
+00:24:45,216 --> 00:24:47,156
+saw before of the trends page.
+
+
+786
+00:24:48,506 --> 00:24:50,606
+But now, we can see what happens
+
+
+787
+00:24:50,606 --> 00:24:52,396
+when I interact with it.
+
+
+788
+00:24:52,676 --> 00:24:54,096
+When I move my mouse cursor over
+
+
+789
+00:24:54,096 --> 00:24:56,536
+the chart, we have this nice
+
+
+790
+00:24:56,576 --> 00:24:58,526
+data legend with details about
+
+
+791
+00:24:58,526 --> 00:24:59,936
+the specific point that I'm
+
+
+792
+00:24:59,936 --> 00:25:00,556
+hovering over.
+
+
+793
+00:25:01,176 --> 00:25:02,366
+In this case I'm looking at May
+
+
+794
+00:25:02,366 --> 00:25:06,016
+18th, where 34,000 unique
+
+
+795
+00:25:06,016 --> 00:25:07,656
+devices tuned in.
+
+
+796
+00:25:08,876 --> 00:25:10,366
+I can go down the page.
+
+
+797
+00:25:10,776 --> 00:25:12,006
+I'm going to select a few
+
+
+798
+00:25:12,006 --> 00:25:14,626
+episodes to chart against each
+
+
+799
+00:25:14,626 --> 00:25:14,956
+other.
+
+
+800
+00:25:17,756 --> 00:25:19,616
+You get this nice colorful view.
+
+
+801
+00:25:20,216 --> 00:25:22,226
+And as I mouse over, I can also
+
+
+802
+00:25:22,226 --> 00:25:23,856
+again see the details of what
+
+
+803
+00:25:23,856 --> 00:25:24,586
+I'm hovering over.
+
+
+804
+00:25:24,976 --> 00:25:26,306
+In this case, I can see episode
+
+
+805
+00:25:26,306 --> 00:25:28,546
+titles and their corresponding
+
+
+806
+00:25:28,546 --> 00:25:29,966
+counts for those days.
+
+
+807
+00:25:30,566 --> 00:25:34,186
+Now I'm going to go change my
+
+
+808
+00:25:34,186 --> 00:25:35,826
+primary filter.
+
+
+809
+00:25:35,826 --> 00:25:36,896
+And I'm going to switch it from
+
+
+810
+00:25:36,896 --> 00:25:37,956
+episode to country.
+
+
+811
+00:25:38,686 --> 00:25:41,326
+So, this updates the chart once
+
+
+812
+00:25:41,326 --> 00:25:41,716
+again.
+
+
+813
+00:25:41,866 --> 00:25:43,266
+This is the same actual graph
+
+
+814
+00:25:43,266 --> 00:25:44,276
+that we saw the first time,
+
+
+815
+00:25:44,996 --> 00:25:46,076
+because now again we're looking
+
+
+816
+00:25:46,076 --> 00:25:46,966
+at all countries.
+
+
+817
+00:25:47,626 --> 00:25:49,546
+but I'm going to choose the top
+
+
+818
+00:25:49,546 --> 00:25:53,026
+five countries and compare those
+
+
+819
+00:25:53,026 --> 00:25:53,786
+against each other.
+
+
+820
+00:25:55,376 --> 00:25:56,806
+Once again, we get this colorful
+
+
+821
+00:25:56,806 --> 00:25:57,186
+chart.
+
+
+822
+00:25:57,976 --> 00:25:59,416
+But in this particular case,
+
+
+823
+00:25:59,846 --> 00:26:01,086
+because the United States
+
+
+824
+00:26:01,086 --> 00:26:02,056
+represents so much of the
+
+
+825
+00:26:02,056 --> 00:26:03,976
+listening for this show, it
+
+
+826
+00:26:03,976 --> 00:26:05,476
+makes it difficult to see the
+
+
+827
+00:26:05,476 --> 00:26:06,406
+other countries and how they
+
+
+828
+00:26:06,406 --> 00:26:07,546
+stack up against each other.
+
+
+829
+00:26:07,916 --> 00:26:09,276
+So, I'm actually going to go and
+
+
+830
+00:26:09,276 --> 00:26:10,786
+deselect the United States.
+
+
+831
+00:26:11,316 --> 00:26:13,796
+The chart adjusts, and we can
+
+
+832
+00:26:13,976 --> 00:26:16,586
+really see with more detail how
+
+
+833
+00:26:16,586 --> 00:26:17,626
+each country is doing.
+
+
+834
+00:26:18,216 --> 00:26:22,716
+And now that I can, I'm going to
+
+
+835
+00:26:22,716 --> 00:26:25,506
+show you the date picker, it's
+
+
+836
+00:26:25,506 --> 00:26:26,676
+up here on the top right corner.
+
+
+837
+00:26:27,066 --> 00:26:28,356
+By default it's set to the last
+
+
+838
+00:26:28,356 --> 00:26:29,096
+60 days.
+
+
+839
+00:26:29,326 --> 00:26:31,706
+You can switch that to weeks, or
+
+
+840
+00:26:31,936 --> 00:26:32,886
+a specific month.
+
+
+841
+00:26:33,416 --> 00:26:34,796
+But we'll leave it at that for
+
+
+842
+00:26:34,796 --> 00:26:35,046
+now.
+
+
+843
+00:26:35,906 --> 00:26:36,926
+Now, there are lots of
+
+
+844
+00:26:37,126 --> 00:26:38,486
+combinations that you can make
+
+
+845
+00:26:38,486 --> 00:26:38,716
+here.
+
+
+846
+00:26:39,466 --> 00:26:42,096
+but I'm going to move on after
+
+
+847
+00:26:42,096 --> 00:26:42,376
+this.
+
+
+848
+00:26:42,376 --> 00:26:43,816
+But I really encourage you to
+
+
+849
+00:26:43,816 --> 00:26:45,036
+take a look at your shows and
+
+
+850
+00:26:45,036 --> 00:26:46,856
+see how they're doing and really
+
+
+851
+00:26:46,856 --> 00:26:47,786
+play around with this tool.
+
+
+852
+00:26:47,786 --> 00:26:49,076
+I think it's a lot of fun to
+
+
+853
+00:26:49,076 --> 00:26:49,456
+use.
+
+
+854
+00:26:49,846 --> 00:26:51,106
+So, let's switch over to the
+
+
+855
+00:26:51,106 --> 00:26:52,686
+show episodes tab.
+
+
+856
+00:26:53,276 --> 00:26:54,526
+And in this view, we can see the
+
+
+857
+00:26:54,526 --> 00:26:56,426
+top episodes, or the all
+
+
+858
+00:26:56,426 --> 00:26:58,106
+episodes for this show, not just
+
+
+859
+00:26:58,106 --> 00:26:59,076
+the top episodes.
+
+
+860
+00:26:59,716 --> 00:27:01,586
+In this case, this show has 11
+
+
+861
+00:27:02,016 --> 00:27:03,086
+episodes total.
+
+
+862
+00:27:03,836 --> 00:27:05,446
+And now, because all episodes
+
+
+863
+00:27:05,446 --> 00:27:07,186
+are together in this view, we
+
+
+864
+00:27:07,186 --> 00:27:08,406
+have the opportunity now to
+
+
+865
+00:27:08,406 --> 00:27:09,986
+answer some other questions like
+
+
+866
+00:27:10,776 --> 00:27:11,666
+what are the most popular
+
+
+867
+00:27:11,666 --> 00:27:12,396
+episodes.
+
+
+868
+00:27:13,096 --> 00:27:14,396
+One way to answer that is by
+
+
+869
+00:27:15,076 --> 00:27:17,026
+sorting by the unique devices
+
+
+870
+00:27:17,066 --> 00:27:17,436
+column.
+
+
+871
+00:27:18,336 --> 00:27:19,946
+When I do that, I can see that
+
+
+872
+00:27:20,606 --> 00:27:22,376
+essentially season 1, episode 4,
+
+
+873
+00:27:22,376 --> 00:27:22,896
+"Barcelona.
+
+
+874
+00:27:22,896 --> 00:27:24,176
+Barbacoa that is the most
+
+
+875
+00:27:24,176 --> 00:27:27,336
+popular by unique devices.
+
+
+876
+00:27:27,716 --> 00:27:29,206
+But maybe you think that it's
+
+
+877
+00:27:29,206 --> 00:27:30,436
+actually total time listened
+
+
+878
+00:27:31,056 --> 00:27:33,306
+that should be the determinant
+
+
+879
+00:27:33,306 --> 00:27:34,126
+of popularity.
+
+
+880
+00:27:34,126 --> 00:27:36,136
+So, I'm going to sort by that
+
+
+881
+00:27:36,136 --> 00:27:36,706
+instead.
+
+
+882
+00:27:36,706 --> 00:27:37,906
+And we see that it's actually
+
+
+883
+00:27:37,906 --> 00:27:40,256
+season 2, episode 1 that takes
+
+
+884
+00:27:40,256 --> 00:27:41,636
+the top spot.
+
+
+885
+00:27:41,636 --> 00:27:43,236
+Or, for myself, I personally
+
+
+886
+00:27:43,236 --> 00:27:44,556
+really like average consumption.
+
+
+887
+00:27:45,226 --> 00:27:46,386
+So, I'm going to sort by that,
+
+
+888
+00:27:46,386 --> 00:27:49,216
+and I can see that at 89% the
+
+
+889
+00:27:49,216 --> 00:27:50,366
+trailer is actually the most
+
+
+890
+00:27:50,366 --> 00:27:52,416
+popular episode, which makes
+
+
+891
+00:27:52,416 --> 00:27:53,486
+sense because it's a short
+
+
+892
+00:27:53,486 --> 00:27:53,976
+episode.
+
+
+893
+00:27:56,856 --> 00:27:58,606
+So, now, we've actually seen all
+
+
+894
+00:27:58,606 --> 00:28:00,826
+of the show level views, now I'd
+
+
+895
+00:28:00,826 --> 00:28:02,766
+like to take you into an episode
+
+
+896
+00:28:02,956 --> 00:28:03,646
+level view.
+
+
+897
+00:28:03,806 --> 00:28:05,326
+So, I'm going to click through
+
+
+898
+00:28:05,326 --> 00:28:07,856
+on the title for the most
+
+
+899
+00:28:07,856 --> 00:28:09,206
+recently released episode.
+
+
+900
+00:28:10,196 --> 00:28:12,566
+Here's "Broken Heirloom" this
+
+
+901
+00:28:12,566 --> 00:28:14,696
+was just released on June 1st.
+
+
+902
+00:28:15,696 --> 00:28:16,656
+Front and center we see a
+
+
+903
+00:28:16,656 --> 00:28:17,646
+timeline chart.
+
+
+904
+00:28:18,186 --> 00:28:19,886
+This shows you the audience size
+
+
+905
+00:28:20,526 --> 00:28:21,806
+over the duration of the
+
+
+906
+00:28:21,806 --> 00:28:22,386
+episode.
+
+
+907
+00:28:22,386 --> 00:28:24,006
+Actually at every 5 seconds.
+
+
+908
+00:28:24,756 --> 00:28:25,806
+And when I hoover over the
+
+
+909
+00:28:25,806 --> 00:28:27,506
+chart, I can see a data legend
+
+
+910
+00:28:27,506 --> 00:28:29,056
+again with details about the
+
+
+911
+00:28:29,056 --> 00:28:30,806
+specific time in the episode,
+
+
+912
+00:28:31,026 --> 00:28:31,936
+it's total count and its
+
+
+913
+00:28:31,936 --> 00:28:34,426
+percentage of the max.
+
+
+914
+00:28:35,446 --> 00:28:37,096
+And in the top left corner, we
+
+
+915
+00:28:37,096 --> 00:28:39,276
+see this headline number for the
+
+
+916
+00:28:39,276 --> 00:28:40,736
+total number of unique devices.
+
+
+917
+00:28:41,686 --> 00:28:42,886
+Something to note about this
+
+
+918
+00:28:42,886 --> 00:28:44,086
+chart, unlike all the other
+
+
+919
+00:28:44,086 --> 00:28:46,946
+views in Podcast Analytics, this
+
+
+920
+00:28:46,976 --> 00:28:49,696
+chart is actually for all time.
+
+
+921
+00:28:49,696 --> 00:28:52,436
+Not just a specified date range.
+
+
+922
+00:28:54,496 --> 00:28:56,416
+Now, what's really nice to see
+
+
+923
+00:28:56,416 --> 00:28:59,086
+here is that in this case, most
+
+
+924
+00:28:59,086 --> 00:29:00,176
+of the people who started this
+
+
+925
+00:29:00,176 --> 00:29:01,726
+episode actually hung out for
+
+
+926
+00:29:01,726 --> 00:29:02,906
+the entire duration.
+
+
+927
+00:29:03,426 --> 00:29:04,656
+This is a really healthy-looking
+
+
+928
+00:29:04,656 --> 00:29:05,146
+episode.
+
+
+929
+00:29:06,116 --> 00:29:08,666
+Now, beneath the chart, if I
+
+
+930
+00:29:08,666 --> 00:29:10,016
+scroll down a little bit we can
+
+
+931
+00:29:10,016 --> 00:29:13,416
+see for the last 60 days the
+
+
+932
+00:29:13,416 --> 00:29:15,516
+metrics for this show, for this
+
+
+933
+00:29:15,516 --> 00:29:16,676
+episode, I should say.
+
+
+934
+00:29:17,566 --> 00:29:19,586
+This gives you a more recent
+
+
+935
+00:29:19,906 --> 00:29:21,326
+sense of how this episode is
+
+
+936
+00:29:21,326 --> 00:29:22,716
+doing, not just all-time.
+
+
+937
+00:29:23,236 --> 00:29:24,416
+And at the very bottom, we see
+
+
+938
+00:29:24,416 --> 00:29:25,836
+the top 10 countries for this
+
+
+939
+00:29:25,836 --> 00:29:26,296
+episode.
+
+
+940
+00:29:27,236 --> 00:29:28,746
+But I'm going to scroll back up
+
+
+941
+00:29:28,746 --> 00:29:31,266
+and cover two things that I
+
+
+942
+00:29:31,476 --> 00:29:32,696
+breezed past before.
+
+
+943
+00:29:33,566 --> 00:29:35,526
+There is a dropdown menu above
+
+
+944
+00:29:35,526 --> 00:29:37,376
+that all-time devices number.
+
+
+945
+00:29:38,116 --> 00:29:39,876
+And when I click on this I can
+
+
+946
+00:29:39,876 --> 00:29:41,436
+see that I can also choose
+
+
+947
+00:29:41,586 --> 00:29:43,166
+devices or total time listened.
+
+
+948
+00:29:44,166 --> 00:29:45,736
+Now by choosing either of those,
+
+
+949
+00:29:45,736 --> 00:29:47,016
+it will actually take us into a
+
+
+950
+00:29:47,016 --> 00:29:49,596
+view which is a timeseries view
+
+
+951
+00:29:49,826 --> 00:29:51,546
+just like the show trends page.
+
+
+952
+00:29:51,866 --> 00:29:53,306
+Except this time, it's tied
+
+
+953
+00:29:53,306 --> 00:29:57,966
+specifically to this episode.
+
+
+954
+00:29:58,186 --> 00:30:00,896
+And now, the part of this graph
+
+
+955
+00:30:00,896 --> 00:30:02,866
+that I like the best is actually
+
+
+956
+00:30:02,866 --> 00:30:04,126
+the ability to playback the
+
+
+957
+00:30:04,126 --> 00:30:06,216
+audio while seeing how the
+
+
+958
+00:30:06,216 --> 00:30:07,926
+audience is reacting over the
+
+
+959
+00:30:07,926 --> 00:30:08,966
+duration of the episode.
+
+
+960
+00:30:08,966 --> 00:30:11,696
+And I can do this by going down
+
+
+961
+00:30:11,696 --> 00:30:12,706
+to the bottom left corner of the
+
+
+962
+00:30:12,706 --> 00:30:14,276
+graph and hitting this play
+
+
+963
+00:30:14,276 --> 00:30:14,646
+button.
+
+
+964
+00:30:15,116 --> 00:30:16,016
+>> [Background Music] Hey,
+
+
+965
+00:30:16,016 --> 00:30:17,446
+there, hunger heads and welcome
+
+
+966
+00:30:17,446 --> 00:30:19,246
+back to another episode of "The
+
+
+967
+00:30:19,246 --> 00:30:20,286
+Very Hungry Tourists."
+
+
+968
+00:30:20,566 --> 00:30:21,736
+I'm Maria Sanchez, PhD.
+
+
+969
+00:30:21,736 --> 00:30:23,246
+>> And I'm Johnny Appleseed.
+
+
+970
+00:30:23,496 --> 00:30:25,146
+>> In today's episode we headed
+
+
+971
+00:30:25,146 --> 00:30:26,466
+to Brooklyn-based, Vinnie's
+
+
+972
+00:30:26,466 --> 00:30:26,936
+Pizzeria.
+
+
+973
+00:30:27,276 --> 00:30:28,886
+As you'll hear, even Johnny's
+
+
+974
+00:30:28,966 --> 00:30:30,786
+massive blunder couldn't get in
+
+
+975
+00:30:30,786 --> 00:30:31,906
+the way of our culinary
+
+
+976
+00:30:31,906 --> 00:30:32,286
+adventure.
+
+
+977
+00:30:32,466 --> 00:30:33,466
+>> I'm still blushing from that
+
+
+978
+00:30:33,466 --> 00:30:33,646
+one.
+
+
+979
+00:30:33,646 --> 00:30:35,866
+>> So, this is actually a very
+
+
+980
+00:30:35,866 --> 00:30:37,546
+entertaining episode, so if you
+
+
+981
+00:30:37,546 --> 00:30:38,276
+get a chance you should
+
+
+982
+00:30:38,276 --> 00:30:39,176
+definitely check it out.
+
+
+983
+00:30:40,846 --> 00:30:43,966
+But like any basic player, you
+
+
+984
+00:30:43,966 --> 00:30:44,986
+don't just have to start at the
+
+
+985
+00:30:44,986 --> 00:30:45,396
+beginning.
+
+
+986
+00:30:45,396 --> 00:30:46,296
+You can also click on the
+
+
+987
+00:30:46,296 --> 00:30:47,946
+timeline to jump ahead to any
+
+
+988
+00:30:47,946 --> 00:30:49,326
+specific spot in time.
+
+
+989
+00:30:49,926 --> 00:30:51,636
+And if you want to fine tune,
+
+
+990
+00:30:51,836 --> 00:30:53,046
+you can grab the play head and
+
+
+991
+00:30:53,096 --> 00:30:53,536
+scrub around.
+
+
+992
+00:30:53,656 --> 00:30:55,986
+So, I'm actually going to scrub
+
+
+993
+00:30:55,986 --> 00:30:57,366
+to the beginning of what looks
+
+
+994
+00:30:57,366 --> 00:30:58,076
+like an ad.
+
+
+995
+00:30:58,876 --> 00:31:00,576
+And so, just to validate my
+
+
+996
+00:31:00,576 --> 00:31:01,906
+assumptions, I'm going to move
+
+
+997
+00:31:01,906 --> 00:31:03,586
+to just before and take a
+
+
+998
+00:31:03,586 --> 00:31:04,056
+listen.
+
+
+999
+00:31:04,446 --> 00:31:04,906
+>> Five years.
+
+
+1000
+00:31:04,906 --> 00:31:05,716
+You wouldn't believe it, but in
+
+
+1001
+00:31:05,716 --> 00:31:07,206
+the back there's a big.
+
+
+1002
+00:31:07,206 --> 00:31:08,996
+>> As the pizza goes in the
+
+
+1003
+00:31:08,996 --> 00:31:10,736
+over, let's take a moment to
+
+
+1004
+00:31:10,736 --> 00:31:11,996
+hear about our great sponsors.
+
+
+1005
+00:31:12,606 --> 00:31:13,036
+>> [Background Music] So, your
+
+
+1006
+00:31:13,036 --> 00:31:14,366
+hands and face are smothered
+
+
+1007
+00:31:14,366 --> 00:31:15,736
+with tahini sauce, so what do
+
+
+1008
+00:31:15,736 --> 00:31:16,236
+you do?
+
+
+1009
+00:31:16,236 --> 00:31:17,036
+>> Get a paper towel?
+
+
+1010
+00:31:17,246 --> 00:31:17,746
+>> Oh, too rough.
+
+
+1011
+00:31:17,926 --> 00:31:18,306
+>> Tissue?
+
+
+1012
+00:31:18,306 --> 00:31:18,896
+>> Too soft.
+
+
+1013
+00:31:18,896 --> 00:31:19,596
+>> What about napkins?
+
+
+1014
+00:31:19,676 --> 00:31:21,186
+>> That's a great idea.
+
+
+1015
+00:31:21,606 --> 00:31:23,276
+>> Napkins to You is a new drone
+
+
+1016
+00:31:23,276 --> 00:31:24,586
+delivery service bringing you
+
+
+1017
+00:31:24,586 --> 00:31:26,336
+napkins where and whenever you
+
+
+1018
+00:31:26,336 --> 00:31:26,756
+need them.
+
+
+1019
+00:31:26,756 --> 00:31:28,256
+>> Simply open the app, request
+
+
+1020
+00:31:28,256 --> 00:31:30,076
+a drop-off and the closest drone
+
+
+1021
+00:31:30,076 --> 00:31:31,336
+is deployed to your location.
+
+
+1022
+00:31:31,716 --> 00:31:32,366
+[Background noise] By typing in
+
+
+1023
+00:31:32,366 --> 00:31:33,676
+the promo code, hungry, you can
+
+
+1024
+00:31:33,676 --> 00:31:34,976
+have your very own napkins
+
+
+1025
+00:31:35,026 --> 00:31:36,726
+delivered for just 4.99 per
+
+
+1026
+00:31:36,726 --> 00:31:37,036
+month.
+
+
+1027
+00:31:37,366 --> 00:31:38,996
+>> Again, that's Napkins to You.
+
+
+1028
+00:31:38,996 --> 00:31:42,136
+>> So, that sounds like a really
+
+
+1029
+00:31:42,136 --> 00:31:43,376
+entertaining ad, and it's too
+
+
+1030
+00:31:43,376 --> 00:31:45,016
+bad that some people decided to
+
+
+1031
+00:31:45,016 --> 00:31:45,846
+skip it.
+
+
+1032
+00:31:46,206 --> 00:31:48,526
+But, if you actually do the math
+
+
+1033
+00:31:49,096 --> 00:31:51,886
+from before the ad to the bottom
+
+
+1034
+00:31:51,886 --> 00:31:54,156
+of the ad, it's only about a 14%
+
+
+1035
+00:31:54,156 --> 00:31:54,526
+drop.
+
+
+1036
+00:31:54,526 --> 00:31:55,226
+And it seems like it's a
+
+
+1037
+00:31:55,226 --> 00:31:56,026
+temporary drop.
+
+
+1038
+00:31:56,026 --> 00:31:56,876
+So, it's doing pretty well.
+
+
+1039
+00:32:00,816 --> 00:32:01,496
+So, with that,
+
+
+1040
+00:32:04,406 --> 00:32:06,786
+I want to switch back to a slide
+
+
+1041
+00:32:06,786 --> 00:32:08,696
+and I just want to say, that
+
+
+1042
+00:32:08,696 --> 00:32:10,336
+wraps up the walk-through and
+
+
+1043
+00:32:10,336 --> 00:32:12,196
+demo of Podcast Analytics for
+
+
+1044
+00:32:12,196 --> 00:32:12,286
+you.
+
+
+1045
+00:32:13,436 --> 00:32:14,816
+And I hope that you were able to
+
+
+1046
+00:32:14,816 --> 00:32:16,096
+learn some things about how this
+
+
+1047
+00:32:16,096 --> 00:32:17,796
+tool works and maybe how it can
+
+
+1048
+00:32:17,796 --> 00:32:19,166
+help you better understand your
+
+
+1049
+00:32:19,166 --> 00:32:19,756
+audience.
+
+
+1050
+00:32:20,836 --> 00:32:22,226
+And Podcast Analytics is in
+
+
+1051
+00:32:22,226 --> 00:32:22,546
+beta.
+
+
+1052
+00:32:23,136 --> 00:32:24,506
+And we are very interested in
+
+
+1053
+00:32:24,506 --> 00:32:25,166
+your feedback.
+
+
+1054
+00:32:25,796 --> 00:32:28,446
+So, if you check the submit your
+
+
+1055
+00:32:28,446 --> 00:32:29,676
+feedback link in the top left
+
+
+1056
+00:32:29,676 --> 00:32:30,756
+corner right next to the beta
+
+
+1057
+00:32:30,756 --> 00:32:32,616
+badge, we would love to hear
+
+
+1058
+00:32:32,816 --> 00:32:35,056
+what you think about Podcast
+
+
+1059
+00:32:35,056 --> 00:32:37,066
+Analytics and give us your
+
+
+1060
+00:32:37,066 --> 00:32:37,526
+feedback.
+
+
+1061
+00:32:38,226 --> 00:32:38,566
+Thank you.
+
+
+1062
+00:32:39,296 --> 00:32:40,406
+Now, let's bring it back to
+
+
+1063
+00:32:40,406 --> 00:32:40,566
+Anne.
+
+
+1064
+00:32:41,516 --> 00:32:46,500
+[ Applause ]
+
+
+1065
+00:32:49,566 --> 00:32:50,576
+>> Thanks, Alec that was
+
+
+1066
+00:32:51,186 --> 00:32:51,786
+awesome.
+
+
+1067
+00:32:52,046 --> 00:32:53,086
+So, that's a walk-through of
+
+
+1068
+00:32:53,086 --> 00:32:54,986
+Podcast Analytics, which again,
+
+
+1069
+00:32:55,456 --> 00:32:57,346
+is available to anyone with a
+
+
+1070
+00:32:57,346 --> 00:32:58,836
+podcast in our catalog.
+
+
+1071
+00:32:58,836 --> 00:33:01,396
+If you haven't used it, try it
+
+
+1072
+00:33:01,396 --> 00:33:01,616
+out.
+
+
+1073
+00:33:01,946 --> 00:33:03,476
+We'll also be at a lab
+
+
+1074
+00:33:03,476 --> 00:33:04,576
+immediately following this
+
+
+1075
+00:33:04,576 --> 00:33:07,606
+session, so come find us.
+
+
+1076
+00:33:07,646 --> 00:33:09,356
+And that's where we are today,
+
+
+1077
+00:33:09,356 --> 00:33:10,856
+but really we've just begun.
+
+
+1078
+00:33:11,266 --> 00:33:12,666
+You guys are the reason that we
+
+
+1079
+00:33:12,666 --> 00:33:13,246
+did this.
+
+
+1080
+00:33:13,246 --> 00:33:14,926
+And we love hearing from you.
+
+
+1081
+00:33:15,856 --> 00:33:16,916
+So, keep it coming.
+
+
+1082
+00:33:17,376 --> 00:33:19,096
+For example, we know that many
+
+
+1083
+00:33:19,096 --> 00:33:20,966
+of you want an API, or
+
+
+1084
+00:33:20,966 --> 00:33:22,486
+subscription and download data
+
+
+1085
+00:33:22,486 --> 00:33:24,526
+or geographic demographics with
+
+
+1086
+00:33:24,846 --> 00:33:26,316
+more specificity.
+
+
+1087
+00:33:26,316 --> 00:33:27,706
+We love the suggestions.
+
+
+1088
+00:33:27,996 --> 00:33:29,886
+We hear you, and we're working
+
+
+1089
+00:33:29,886 --> 00:33:30,956
+on improving the product in the
+
+
+1090
+00:33:30,956 --> 00:33:31,346
+future.
+
+
+1091
+00:33:31,916 --> 00:33:34,526
+We are also going to be asking
+
+
+1092
+00:33:34,526 --> 00:33:36,826
+for some things from you in the
+
+
+1093
+00:33:36,826 --> 00:33:38,836
+future, including new
+
+
+1094
+00:33:38,836 --> 00:33:41,086
+specifications around HTTPS,
+
+
+1095
+00:33:41,866 --> 00:33:45,706
+pubDates, consistent GUIDs and
+
+
+1096
+00:33:45,706 --> 00:33:48,226
+cover art that meets a minimum
+
+
+1097
+00:33:48,656 --> 00:33:50,226
+required resolution.
+
+
+1098
+00:33:50,866 --> 00:33:52,276
+So, for continued access to
+
+
+1099
+00:33:52,276 --> 00:33:53,326
+analytics in the future, you
+
+
+1100
+00:33:53,326 --> 00:33:54,926
+will absolutely need to have
+
+
+1101
+00:33:55,276 --> 00:33:56,276
+those four things.
+
+
+1102
+00:33:57,626 --> 00:33:59,076
+We're also going to be releasing
+
+
+1103
+00:33:59,076 --> 00:34:00,916
+some guidelines around best
+
+
+1104
+00:34:00,916 --> 00:34:02,736
+practices for audio mastering,
+
+
+1105
+00:34:02,966 --> 00:34:03,966
+to give you a sense of the
+
+
+1106
+00:34:03,966 --> 00:34:05,676
+ranges you should be using so
+
+
+1107
+00:34:05,676 --> 00:34:07,236
+that your podcast sounds the
+
+
+1108
+00:34:07,236 --> 00:34:10,226
+best it can on HomePod and
+
+
+1109
+00:34:10,226 --> 00:34:11,516
+within the context of Apple
+
+
+1110
+00:34:11,516 --> 00:34:12,646
+Podcast Catalog.
+
+
+1111
+00:34:13,226 --> 00:34:14,406
+We'll be sharing these
+
+
+1112
+00:34:14,406 --> 00:34:15,815
+requirements with you all.
+
+
+1113
+00:34:15,815 --> 00:34:17,246
+We will put them in Podcast
+
+
+1114
+00:34:17,246 --> 00:34:18,956
+Resources and Help so you can
+
+
+1115
+00:34:18,956 --> 00:34:20,835
+refer back to them any time.
+
+
+1116
+00:34:22,025 --> 00:34:24,266
+And speaking of which, last but
+
+
+1117
+00:34:24,266 --> 00:34:25,626
+not least, I want to remind you
+
+
+1118
+00:34:25,626 --> 00:34:26,766
+about our resources for
+
+
+1119
+00:34:26,766 --> 00:34:27,525
+podcasters.
+
+
+1120
+00:34:28,696 --> 00:34:31,646
+So, we have a Branding Guide for
+
+
+1121
+00:34:31,646 --> 00:34:32,576
+podcasters.
+
+
+1122
+00:34:33,025 --> 00:34:35,005
+We also have the Affiliate
+
+
+1123
+00:34:35,005 --> 00:34:35,536
+Program.
+
+
+1124
+00:34:36,176 --> 00:34:37,775
+And then Podcast Resources and
+
+
+1125
+00:34:37,866 --> 00:34:39,116
+Help, which you might remember
+
+
+1126
+00:34:39,116 --> 00:34:40,536
+from the top right corner of the
+
+
+1127
+00:34:40,536 --> 00:34:42,226
+purple screen that Alec showed
+
+
+1128
+00:34:42,226 --> 00:34:44,676
+you, that features the hosting
+
+
+1129
+00:34:44,676 --> 00:34:45,936
+partner list that James
+
+
+1130
+00:34:45,936 --> 00:34:46,485
+mentioned.
+
+
+1131
+00:34:46,815 --> 00:34:48,436
+Some tutorial videos for
+
+
+1132
+00:34:48,436 --> 00:34:50,266
+analytics, and of course the
+
+
+1133
+00:34:50,266 --> 00:34:52,646
+ability to contact us for help
+
+
+1134
+00:34:52,775 --> 00:34:53,436
+anytime.
+
+
+1135
+00:34:54,996 --> 00:34:56,446
+For more information, you can
+
+
+1136
+00:34:56,446 --> 00:34:58,896
+also visit this link or like I
+
+
+1137
+00:34:58,896 --> 00:35:00,636
+said, come join us in the Apple
+
+
+1138
+00:35:00,996 --> 00:35:03,166
+Podcast lab immediately
+
+
+1139
+00:35:03,166 --> 00:35:05,946
+following the session at 10 AM.
+
+
+1140
+00:35:06,376 --> 00:35:06,876
+Thanks so much.
+
+
+1141
+00:35:07,516 --> 00:35:10,500
+[ Applause ]
+
